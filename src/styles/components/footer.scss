@@ -1,0 +1,18 @@
+@use '../colors.scss' as *;
+
+.footer {
+    &__wrapper {
+        @include color-profile-primary;
+        padding: 1rem;
+    }
+
+    &__ul {
+        padding-left: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        list-style: none;
+    }
+}

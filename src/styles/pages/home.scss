@@ -1,0 +1,20 @@
+@use '../colors.scss' as *;
+
+.home {
+    &__banner {
+        @include color-profile-secondary;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    &__banner-subtext {
+        margin-bottom: 2em;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        svg {
+            margin-right: 5px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+body {
+    --dark: #1B1A17;
+    --light: #F8F5F1;
+
+    --primary: #7D6E83;
+    --secondary: #D0B8A8;
+}
+
+@mixin color-profile-main {
+    color: var(--light);
+    background-color: var(--dark);
+
+}
+@mixin color-profile-primary {
+    color: var(--light);
+    background-color: var(--primary);
+}
+
+@mixin color-profile-secondary {
+    color: var(--dark);
+    background-color: var(--secondary);
+}
+
+@mixin color-profile-tertiary {
+    color: var(--dark);
+    background-color: var(--light);
+}
+
+.color-profile-main {
+    @include color-profile-main;
+}
+
+
+.color-profile-primary {
+    @include color-profile-primary;
+}
+
+
+.color-profile-secondary {
+    @include color-profile-secondary;
+}
+
+.color-profile-tertiary {
+    @include color-profile-tertiary;
+}

@@ -1,0 +1,24 @@
+
+@use '../colors.scss' as *;
+
+.main-nav {
+    &__wrapper {
+        @include color-profile-primary;
+        padding: 1rem;
+        position: sticky;
+        top: 0;
+        z-index: 900;
+    }
+
+    &__ul {
+        padding-left: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        display: grid;
+        place-items: center;
+        list-style: none;
+    }
+}

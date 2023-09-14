@@ -1,0 +1,70 @@
+@use '../typography.scss' as *;
+@use '../helpers.scss' as *;
+@use '../colors.scss' as *;
+
+.accordion {
+    &__details {
+        cursor: pointer;
+        transition: 0.2s;
+        position: relative;
+        background-color: gainsboro;
+        overflow: hidden;
+        border: 1px solid var(--primary);
+        margin-right: -1rem;
+    }
+
+    &__inner {
+        max-width: calc((100vw - (50vw + 75px)) / 3);
+        transition: 0.2s;
+
+        @media screen and (min-width: $desktop) {
+            max-width: calc((100vw - (900px - 87px)) / 3);
+        }
+
+        // ===== OPEN STATE =====
+        &[data-state="open"] {
+            max-width: 50vw;
+
+            @media screen and (min-width: $desktop) {
+                max-width: 900px;
+            }
+        }
+    }
+
+    &__title, &__subtitle {
+        display: block;
+        font-family: 'Darker Grotesque', sans-serif;
+        margin: 1.5rem;
+    }
+
+    &__title {
+        margin-bottom: 0;
+    }
+
+    &__subtitle {
+        margin-top: 0;
+    }
+
+    &__content {
+        width: 80vw;
+        max-width: 500px;
+        margin: 0 2.2rem 0 4.2rem;
+
+        h2 {
+            @include base-font-size;
+            font-family: "Noto Sans Display", sans-serif;
+        }
+    }
+    
+    &__data-item {
+        min-height: 3rem;
+        display: grid;
+        place-items: center;
+        border-bottom: 1px solid var(--dark);
+
+        span {
+            font-style: italic;
+            font-size: 0.8em;
+        }
+    }
+}

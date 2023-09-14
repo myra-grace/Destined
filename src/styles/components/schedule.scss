@@ -1,0 +1,46 @@
+@use '../colors.scss' as *;
+@use '../layout.scss' as *;
+@use '../helpers.scss' as *;
+
+.schedule {
+    &__wrapper {
+        @include color-profile-tertiary;
+        @include standard-margin-top;
+        @include standard-padding;
+        max-width: 100%;
+        min-height: 400px;
+        overflow-x: auto;
+
+        @media screen and (min-width: $desktop) {
+            @include container;
+        }
+    }
+
+    &__inner {
+        display: flex;
+    }
+
+    &__title.container {
+        @media screen and (min-width: $desktop) {
+            padding: 0;
+        }
+    }
+
+    &__time {
+        margin: 6rem 1rem 0 1rem;
+        display: grid;
+        text-align: right;
+
+        span {
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            border-top: 1px solid var(--dark);
+        }
+    }
+
+    &__details-wrapper {
+        display: flex;
+    }
+}

@@ -1,0 +1,80 @@
+@use './colors.scss' as *;
+
+@mixin standard-padding-small {
+    padding: 0.3rem 1.3rem;
+}
+
+.button {
+    @include standard-padding-small;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+
+    &--primary {
+        @include color-profile-primary;
+    }
+
+    &--secondary {
+        @include color-profile-secondary;
+    }
+
+    &--tertiary {
+        @include color-profile-tertiary;
+    }
+
+}
+
+.link {
+    cursor: pointer;
+    display: inline-block;
+    color: inherit;
+
+    &[data-title]::after {
+        content: attr(data-title);
+        height: 0;
+        visibility: hidden;
+        overflow: hidden;
+        user-select: none;
+        pointer-events: none;
+        font-weight: 700;
+        display: block;
+
+        @media speech {
+            display: none;
+        }
+    }
+
+    &:not([disabled]):hover {
+        &[data-title]:hover {
+            font-weight: bold;
+        }
+    }
+    
+    &--hover-underline {
+        text-decoration: none;
+        position: relative;
+        overflow: hidden;
+
+        &::before {
+            content: "";
+            width: 300px;
+            height: 1px;
+            display: block;
+            transition: 0.2s;
+            background-color: currentcolor;
+            position: absolute;
+            bottom: 0;
+            right: 300px;
+        }
+
+        &:not([disabled]):hover, &.hovered {
+            &::before {
+                right: 0;
+            }
+
+            &[data-title]:hover {
+                font-weight: normal;
+            }
+        }
+    }
+}

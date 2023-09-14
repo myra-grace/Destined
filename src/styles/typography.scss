@@ -1,0 +1,52 @@
+@use './helpers.scss' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+$base-font-size-mobile: 16px;
+$base-font-size-desktop: 20px;
+
+@mixin base-font-size {
+    font-size: $base-font-size-mobile;
+
+    @media screen and (min-width: $desktop) {
+        font-size: $base-font-size-desktop;
+    } 
+}
+
+html {
+    @include base-font-size;
+}
+
+body {
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.type {
+    &--accent {
+        font-size: 2em;
+        font-family: 'Libre Barcode 39 Text', cursive;
+    }
+    
+    &--title {
+        font-family: 'Italianno', cursive;
+    }
+
+    &--subtitle {
+        font-family: 'Darker Grotesque', sans-serif;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Italianno', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 1;
+}
