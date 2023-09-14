@@ -7,11 +7,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
-$base-font-size-mobile: 16px;
+$base-font-size-mobile: 12px;
+$base-font-size-tablet: 16px;
 $base-font-size-desktop: 20px;
 
 @mixin base-font-size {
     font-size: $base-font-size-mobile;
+
+    @media screen and (min-width: $tablet) {
+        font-size: $base-font-size-tablet;
+    }
 
     @media screen and (min-width: $desktop) {
         font-size: $base-font-size-desktop;
@@ -29,6 +34,7 @@ body {
 .type {
     &--accent {
         font-size: 2em;
+        font-weight: normal;
         font-family: 'Libre Barcode 39 Text', cursive;
     }
     
@@ -43,10 +49,33 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Italianno', cursive;
+    line-height: 1;
     margin: 0;
 }
 
 h1 {
-    font-size: 80px;
-    line-height: 1;
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+h6 {
+    font-weight: normal;
+    font-size: 1rem;
 }

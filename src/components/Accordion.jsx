@@ -10,7 +10,7 @@ export function Accordion(props) {
     return (
         <div aria-label={title + ' schedule'} className='accordion__details' onClick={ toggleExpand }>
             <div className='accordion__inner' data-state={ expand ? 'open' : 'close' }>
-                <h2 className='accordion__title'>{ title }</h2>
+                <h3 className='accordion__title'>{ title }</h3>
                 {subtitle ? <span className='accordion__subtitle'>{ subtitle }</span> : null}
                 <div className='accordion__content'>
                     { content }

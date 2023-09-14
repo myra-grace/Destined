@@ -1,0 +1,15 @@
+@use '../layout.scss' as *;
+
+.ui-kit {
+    &__wrapper {
+        @include container;
+        @include standard-padding;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    &__typography-inner {
+        flex: 1;
+    }
+}

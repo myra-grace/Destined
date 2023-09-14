@@ -7,17 +7,16 @@
         @include color-profile-tertiary;
         @include standard-margin-top;
         @include standard-padding;
+        @include container;
         max-width: 100%;
         min-height: 400px;
         overflow-x: auto;
-
-        @media screen and (min-width: $desktop) {
-            @include container;
-        }
+        padding-right: 0;
     }
 
     &__inner {
         display: flex;
+        position: relative;
     }
 
     &__title.container {
@@ -27,11 +26,22 @@
     }
 
     &__time {
-        margin: 6rem 1rem 0 1rem;
+        margin: 8.4rem 1rem 0 -0.9rem;
         display: grid;
         text-align: right;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        
+        @media screen and (min-width: $desktop) {
+            display: block;
+            margin: 8.35rem 1rem 0 1rem;
+            position: relative;
+        }
 
         span {
+            position: relative;
             height: 3rem;
             display: flex;
             align-items: center;
@@ -42,5 +52,14 @@
 
     &__details-wrapper {
         display: flex;
+        overflow: hidden;
+        margin-left: -2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+
+        @media screen and (min-width: $desktop) {
+            margin-left: -6rem;
+            padding-left: 6rem;
+        }
     }
 }

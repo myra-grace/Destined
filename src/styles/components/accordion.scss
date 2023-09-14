@@ -8,25 +8,28 @@
         transition: 0.2s;
         position: relative;
         background-color: gainsboro;
-        overflow: hidden;
         border: 1px solid var(--primary);
-        margin-right: -1rem;
+        margin-left: -1rem;
+        box-shadow: -8px 8px 5px 0 rgba(0, 0, 0, 0.3);
+        z-index: 1;
     }
 
     &__inner {
-        max-width: calc((100vw - (50vw + 75px)) / 3);
+        max-width: calc((100vw - 60vw) / 3);
         transition: 0.2s;
 
         @media screen and (min-width: $desktop) {
-            max-width: calc((100vw - (900px - 87px)) / 3);
+            max-width: calc((100vw - (50vw + 100px)) / 3);
         }
 
         // ===== OPEN STATE =====
         &[data-state="open"] {
-            max-width: 50vw;
+            width: 60vw;
+            max-width: 60vw;
 
             @media screen and (min-width: $desktop) {
-                max-width: 900px;
+                width: 50vw;
+                max-width: 50vw;
             }
         }
     }
@@ -35,6 +38,7 @@
         display: block;
         font-family: 'Darker Grotesque', sans-serif;
         margin: 1.5rem;
+        min-width: max-content;
     }
 
     &__title {
@@ -46,25 +50,18 @@
     }
 
     &__content {
-        width: 80vw;
-        max-width: 500px;
-        margin: 0 2.2rem 0 4.2rem;
+        width: calc(100vw / 2);
+        margin: 0 1.5rem;
+
+        @media screen and (min-width: $desktop) {
+            margin: 0 2.2rem 0 4.2rem;
+            max-width: 500px;
+            width: 80vw;
+        }
 
         h2 {
             @include base-font-size;
             font-family: "Noto Sans Display", sans-serif;
-        }
-    }
-    
-    &__data-item {
-        min-height: 3rem;
-        display: grid;
-        place-items: center;
-        border-bottom: 1px solid var(--dark);
-
-        span {
-            font-style: italic;
-            font-size: 0.8em;
         }
     }
 }

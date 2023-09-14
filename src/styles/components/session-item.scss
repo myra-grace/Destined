@@ -1,0 +1,46 @@
+@use '../colors.scss' as *;
+
+.session-item {
+    &__wrapper {
+        min-height: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid var(--dark);
+        position: relative;
+
+        &::after {
+            content: '';
+            pointer-events: none;
+            opacity: 0;
+            width: 200vw;
+            height: 100%;
+            background-color: var(--primary);
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: -100vw;
+        }
+
+        &:hover {
+            &::after {
+                opacity: 0.5;
+            }
+        }
+
+        span, h2 {
+            z-index: 2;
+        }
+
+        span {
+            height: max-content;
+            font-style: italic;
+            font-size: 0.8em;
+        }
+
+        &:last-of-type {
+            border-bottom: none;
+        }
+    }
+}

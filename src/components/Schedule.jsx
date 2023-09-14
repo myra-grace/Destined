@@ -1,90 +1,85 @@
 import '../styles/components/schedule.scss';
 import { Accordion } from './Accordion';
+import { SessionItem } from './SessionItem';
 
 // TODO: Make sessions into component
 
 export function Schedule() {
     const fridayContent = 
         <>
-            <div className='accordion__data-item empty-row' data-row-fill='20'></div>
-            <div className='accordion__data-item'>
-                <span aria-label='time' className='hide'>6:00pm</span>
-                <h2>
-                    Group dinner @ church
-                </h2>
-            </div>
-            <div className='accordion__data-item'>
-                <span aria-label='time' className='hide'>6:30pm</span>
-                <h2>
-                    Vesper kick-off
-                </h2>
-            </div>
-            <div className='accordion__data-item' data-row-fill='4'>
-                <span aria-label='time' className='hide'>7:00pm to 9:00pm</span>
-                <h2>
-                    Convoy travel
-                </h2>
-            </div>
+            <SessionItem slotFill={ 20 } />
+            <SessionItem time="6:00pm" title=" Group dinner @ church"/>
+            <SessionItem time="6:30pm" title="Vesper kick-off"/>
+            <SessionItem time="7:00pm to 9:00pm" title="Convoy travel" slotFill={ 4 }/>
+            <SessionItem time="9:00pm to 10:00pm" title="Hot choco / Tea time" slotFill={ 2 }/>
+            <SessionItem time="10:00pm to 11:00pm" slotFill={ 2 }/>
+            <SessionItem time="10:30pm to 11:00pm" title="Lights out"/>
         </>
     ;
 
     const saturdayContent = 
         <>
-            <div className='accordion__data-item'>
-                <span aria-label='time' className='hide'>8:00am</span>
-                <span aria-label='facilitator'>Lance Kelly</span>
-                <h2>Morning fitness</h2>
-            </div>
-            <div className='accordion__data-item'>
-                <span aria-label='time' className='hide'>8:30am</span>
-                <span aria-label='facilitator'>Marsjey Hymn</span>
-                <h2>Morning devotional 1</h2>
-            </div>
-            <div className='accordion__data-item'>
-                <span aria-label='time' className='hide'>9:00am to 10:00am</span>
-                <h2>Breakfast</h2>
-            </div>
-            <div className='accordion__data-item'>
-                <span aria-label='time' className='hide'>10:00am to 11:00am</span>
-                <span aria-label='facilitator'>Lyle Fajilagot & *</span>
-                <h2>Where am I?</h2>
-            </div>
+            <SessionItem time="8:00am" facilitator="Lance Kelly" title="Morning fitness"/>
+            <SessionItem time="8:30am" facilitator="Marsjey Hymn" title="Morning devotional 1"/>
+            <SessionItem time="9:00am to 10:00am" title="Breakfast" slotFill={ 2 }/>
+            <SessionItem time="10:00am to 11:00am" facilitator="Lyle Fajilagot & *" title="Where am I?" slotFill={ 2 }/>
+            <SessionItem time="11:00am to 11:30am"/>
+            <SessionItem time="11:30am to 1:00pm" facilitator="Marc Lovem" title="Butterfly effect" slotFill={ 3 }/>
+            <SessionItem time="1:00pm to 1:30pm"/>
+            <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
+            <SessionItem time="2:30pm to 3:00pm" title="Nature walk"/>
+            <SessionItem time="3:00pm to 3:30pm"/>
+            <SessionItem time="3:30pm to 5:00pm" facilitator="Mellory May & Lyle Fajilagot" title="Ladies & Gentlemen" slotFill={ 3 }/>
+            <SessionItem time="5:00pm to 5:30pm"/>
+            <SessionItem time="5:30pm to 6:00pm" facilitator="Beverly Kate" title="Evening devotional 2"/>
+            <SessionItem time="6:00pm to 7:00pm" title="Dinner" slotFill={ 2 }/>
+            <SessionItem time="7:00pm to 10:00pm" title="Gym" slotFill={ 6 }/>
+            <SessionItem time="10:00pm to 10:30pm" slotFill={ 2 }/>
+            <SessionItem time="10:30pm to 11:00pm" title="Lights out"/>
         </>
     ;
 
     const sundayContent = 
-        <table>
-            <tbody>
-                <tr>
-                    <th>Myself in the Community</th>
-                </tr>
-                <tr>
-                    <td>
-                        Sunday content
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <>
+        <SessionItem time="8:00am" facilitator="Lance Kelly" title="Morning fitness"/>
+        <SessionItem time="8:30am" facilitator="Cherlynn De Asis" title="Morning devotional 2"/>
+        <SessionItem time="9:00am to 10:00am" title="Breakfast" slotFill={ 2 }/>
+        <SessionItem time="10:00am to 11:30am" facilitator="Myra Salinas" title="Understanding myself & others" slotFill={ 3 }/>
+        <SessionItem time="11:30am to 12:00pm"/>
+        <SessionItem time="12:00am to 1:00pm" facilitator="Guido Clement" title="My body is a temple" slotFill={ 2 }/>
+        <SessionItem time="1:00pm to 1:30pm"/>
+        <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
+        <SessionItem time="2:30pm to 3:30pm" facilitator="Pastor Bon" title="Effective decision-making" slotFill={ 2 }/>
+        <SessionItem time="3:30pm to 4:00pm"/>
+        <SessionItem time="4:00pm to 5:00pm" facilitator="Erik Juanich" title="Effective communication" slotFill={ 2 }/>
+        <SessionItem time="5:00pm to 8:00pm" facilitator="Pia Marie & Joseph Daniel" title="Cooking class & BBQ Dinner" slotFill={ 6 }/>
+        <SessionItem time="8:00pm to 8:30pm"/>
+        <SessionItem time="8:30pm to 9:00pm" facilitator="Marc Vicuna" title="Evening devotional 3"/>
+        <SessionItem time="9:00pm to 10:00pm" title="Hot choco / Tea time" slotFill={ 2 }/>
+        <SessionItem time="10:00pm to 11:00pm" slotFill={ 2 }/>
+        <SessionItem time="10:30pm to 11:00pm" title="Lights out"/>
+    </>
     ;
 
     const mondayContent = 
-        <table>
-            <tbody>
-                <tr>
-                    <th>Practical Measures</th>
-                </tr>
-                <tr>
-                    <td>
-                        Monday content
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <>
+        <SessionItem time="8:00am" facilitator="Lance Kelly" title="Morning fitness"/>
+        <SessionItem time="8:30am" facilitator="Cybill Lorraine" title="Morning devotional 1"/>
+        <SessionItem time="9:00am to 10:00am" title="Breakfast" slotFill={ 2 }/>
+        <SessionItem time="10:00am to 11:00am" facilitator="Mellory May" title="Management - time & money" slotFill={ 2 }/>
+        <SessionItem time="11:00am to 11:30am"/>
+        <SessionItem time="11:30am to 12:30pm" facilitator="Myra Salinas" title="Resolution" slotFill={ 2 }/>
+        <SessionItem time="12:30pm to 1:30pm" title="Packup time!" slotFill={ 2 }/>
+        <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
+        <SessionItem time="2:30pm to 6:00pm" title="Hike" slotFill={ 7 }/>
+        <SessionItem time="6:00pm to 7:00pm" title="Dinner" slotFill={ 2 }/>
+        <SessionItem time="7:00pm to 9:00pm" title="Convoy travel" slotFill={ 4 }/>
+    </>
     ;
     
     return (
         <div className='schedule__wrapper'>
-            <h1 className='schedule__title'>Schedule</h1>
+            <h2 className='schedule__title'>Schedule</h2>
 
             <div className='schedule__inner'>
                 <div className='schedule__time'>
@@ -125,7 +120,7 @@ export function Schedule() {
                     <Accordion title='Friday' subtitle='Kick-off' content={ fridayContent } open={ true }/>
                     <Accordion title='Saturday' subtitle='Getting Oriented' content={ saturdayContent }/>
                     <Accordion title='Sunday' subtitle='Myself in the Community' content={ sundayContent }/>
-                    <Accordion title='Monday' subtitle='Practical Measures' content={ mondayContent }/>
+                    <Accordion title='Monday' subtitle='Practical Measures' content={ mondayContent } open={ true }/>
                 </div>
             </div>
         </div>

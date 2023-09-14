@@ -6,20 +6,55 @@
 
 .button {
     @include standard-padding-small;
+    border: 1px solid currentColor;
     text-decoration: none;
     position: relative;
     overflow: hidden;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 1rem;
+    transition: 0.2s;
+    line-height: 1;
+    padding-bottom: 0.45rem;
 
     &--primary {
         @include color-profile-primary;
+        border-color: var(--primary);
     }
 
     &--secondary {
         @include color-profile-secondary;
+        border-color: var(--secondary);
     }
 
     &--tertiary {
         @include color-profile-tertiary;
+        border-color: var(--light);
+    }
+
+    &:not([disabled]):hover {
+        background-color: transparent;
+    }
+
+    &--primary {
+        &:not([disabled]):hover {
+            @include color-profile-secondary;
+            border-color: var(--secondary);
+        }
+    
+    }
+
+    &--secondary {
+        &:not([disabled]):hover {
+            color: var(--secondary);
+        }
+    
+    }
+
+    &--tertiary {
+        &:not([disabled]):hover {
+            color: var(--light);
+        }
+    
     }
 
 }
@@ -28,6 +63,7 @@
     cursor: pointer;
     display: inline-block;
     color: inherit;
+    height: max-content;
 
     &[data-title]::after {
         content: attr(data-title);
@@ -54,6 +90,10 @@
         text-decoration: none;
         position: relative;
         overflow: hidden;
+
+        &:not(.type--accent) {
+            font-family: 'Darker Grotesque', sans-serif;
+        }
 
         &::before {
             content: "";
