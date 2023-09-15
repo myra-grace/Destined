@@ -6,7 +6,7 @@ import { Details } from './pages/Details';
 import { Admin } from './pages/Admin';
 import { AdminList } from './pages/AdminList';
 import { Footer } from "./components/Footer";
-import { UiKit } from './pages/UiKit';
+import { UiKit } from './pages/uiKit';
 
 import './App.scss';
 import './styles/layout.scss';
@@ -20,7 +20,7 @@ function App() {
     <>
       <MainNav />
 
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Home />}/>
         <Route path="/details" element={<Details />}/>
         <Route path="/admin" element={<AdminList />}/>
