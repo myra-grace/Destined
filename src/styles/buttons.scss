@@ -15,6 +15,7 @@
     transition: 0.2s;
     line-height: 1;
     padding-bottom: 0.45rem;
+    text-align: center;
 
     &--primary {
         @include color-profile-primary;
@@ -64,6 +65,7 @@
     display: inline-block;
     color: inherit;
     height: max-content;
+    text-align: center;
 
     &[data-title]::after {
         content: attr(data-title);

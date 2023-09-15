@@ -19,10 +19,8 @@
         position: relative;
     }
 
-    &__title.container {
-        @media screen and (min-width: $desktop) {
-            padding: 0;
-        }
+    &__title {
+        margin-bottom: 3rem;
     }
 
     &__time {

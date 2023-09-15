@@ -1,13 +1,16 @@
 @use '../colors.scss' as *;
 
 .home {
-    &__banner {
+    &__banner-wrapper {
         @include color-profile-secondary;
+    }
+
+    &__about {
         text-align: center;
         padding: 2rem;
     }
 
-    &__banner-subtext {
+    &__stamp-subtext {
         margin-bottom: 2em;
         display: flex;
         justify-content: center;

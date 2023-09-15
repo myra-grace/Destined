@@ -6,13 +6,13 @@ export function MainNav() {
         <nav className="main-nav__wrapper">
             <ul className="main-nav__ul container">
                 <li className="main-nav__item">
-                    <Link to="/admin" className='link link--hover-underline type--subtitle' data-title='Admin'>Admin</Link>
+                    <Link to="/music" className='link link--hover-underline type--subtitle' data-title='Music'>Music</Link>
                 </li>
                 <li className="main-nav__item">
                     <Link to="/" className='link link--hover-underline type--accent'>Destined</Link>
                 </li>
                 <li className="main-nav__item">
-                    <Link to="/details" className='link link--hover-underline type--subtitle' data-title='Details'>Details</Link>
+                    <Link to="/sessions" className='link link--hover-underline type--subtitle' data-title='Sessions'>Sessions</Link>
                 </li>
             </ul>
         </nav>

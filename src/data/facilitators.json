@@ -1,0 +1,55 @@
+{
+    "myra-grace": {
+        "name": "Myra Grace",
+        "role": "Youth Leader",
+        "responsibilities": {
+            "friday": [
+                {
+                    "time": "18h00",
+                    "title": "Vesper",
+                    "description": "Themed \"Destined,\" this youth retreat is aimed to help you discover your destiny. From a Christ centered approach, we'll discuss topics of: life direction, character building, and practical living. Participate in engaging lectures, sermonettes, and workshops. Also, enjoy physical and hands-on activities such as: hiking, cooking, and wellness pursuits.",
+                    "task": "Vesper"
+                },
+                {
+                    "time": "19h00",
+                    "title": "Convoy",
+                    "task": "Convoy",
+                    "description": "Travelling to Labelle in convoy"
+                }
+            ],
+            "saturday": [
+                {
+                    "time": "14h30",
+                    "title": "Nature walk",
+                    "description": "Take everyone for a walk in the woods.",
+                    "task": "Take everyone for a nature walk"
+                },
+                {
+                    "time": "19h00",
+                    "title": "Gym",
+                    "description": "Get everyone to the gym in Labelle",
+                    "task": "Get everyone to the gym"
+                }
+            ],
+            "sunday": [
+                {
+                    "time": "10h00 to 11h00",
+                    "title": "Understanding myself & others",
+                    "description": "Understanding myself & others - personality test & life builder",
+                    "task": "Lecture - Understanding myself & others"
+                }
+            ],
+            "monday": [
+                {
+                    "time": "11h30 to 12h30",
+                    "title": "Resolution",
+                    "description": "Concluding discussion.",
+                    "task": "Facilitate - Resolution"
+                }
+            ],
+            "general": [
+                "Manage event"
+            ]
+        }
+    }
+}
