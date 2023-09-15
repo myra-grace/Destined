@@ -5,7 +5,6 @@
 .schedule {
     &__wrapper {
         @include color-profile-tertiary;
-        @include standard-margin-top;
         @include standard-padding;
         @include container;
         max-width: 100%;

@@ -15,7 +15,7 @@
     }
 
     &__inner {
-        max-width: calc((100vw - 60vw) / 3);
+        max-width: calc((100vw - 65vw) / 3);
         transition: 0.2s;
 
         @media screen and (min-width: $desktop) {
@@ -24,12 +24,18 @@
 
         // ===== OPEN STATE =====
         &[data-state="open"] {
-            width: 60vw;
-            max-width: 60vw;
+            width: 65vw;
+            max-width: 65vw;
 
             @media screen and (min-width: $desktop) {
                 width: 50vw;
                 max-width: 50vw;
+            }
+
+            .session-item__wrapper {
+                &::after {
+                    opacity: 0.2;
+                }
             }
         }
     }
@@ -50,7 +56,7 @@
     }
 
     &__content {
-        width: calc(100vw / 2);
+        width: 60vw;
         margin: 0 1.5rem;
 
         @media screen and (min-width: $desktop) {
@@ -62,6 +68,15 @@
         h2 {
             @include base-font-size;
             font-family: "Noto Sans Display", sans-serif;
+        }
+
+        .session-item__wrapper {
+            &:nth-child(odd)::after {
+                background-color: var(--primary);
+            }
+            &:nth-child(even)::after {
+                background-color: var(--secondary);
+            }
         }
     }
 }

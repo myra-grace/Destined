@@ -24,7 +24,7 @@ export function Schedule() {
             <SessionItem time="9:00am to 10:00am" title="Breakfast" slotFill={ 2 }/>
             <SessionItem time="10:00am to 11:00am" facilitator="Lyle Fajilagot & *" title="Where am I?" slotFill={ 2 }/>
             <SessionItem time="11:00am to 11:30am"/>
-            <SessionItem time="11:30am to 1:00pm" facilitator="Marc Lovem" title="Butterfly effect" slotFill={ 3 }/>
+            <SessionItem time="11:30am to 1:00pm" facilitator="Marc Lovem" title="Butterfly effect" slotFill={ 3 } link="/sessions#butterfly-effect"/>
             <SessionItem time="1:00pm to 1:30pm"/>
             <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
             <SessionItem time="2:30pm to 3:00pm" title="Nature walk"/>
@@ -116,11 +116,11 @@ export function Schedule() {
                     <span>11:00pm</span>
                 </div>
 
-                <div className='schedule__details-wrapper'>
-                    <Accordion title='Friday' subtitle='Kick-off' content={ fridayContent } open={ true }/>
-                    <Accordion title='Saturday' subtitle='Getting Oriented' content={ saturdayContent }/>
-                    <Accordion title='Sunday' subtitle='Myself in the Community' content={ sundayContent }/>
-                    <Accordion title='Monday' subtitle='Practical Measures' content={ mondayContent } open={ true }/>
+                <div className='schedule__details-wrapper' data-accordion-parent="schedule">
+                    <Accordion title='Friday' id="friday" subtitle='Kick-off' content={ fridayContent } open={ true } parent="schedule"/>
+                    <Accordion title='Saturday' id='saturday' subtitle='Getting Oriented' content={ saturdayContent } parent="schedule"/>
+                    <Accordion title='Sunday' id='sunday' subtitle='Myself in the Community' content={ sundayContent } parent="schedule"/>
+                    <Accordion title='Monday' id='monday' subtitle='Practical Measures' content={ mondayContent } parent="schedule"/>
                 </div>
             </div>
         </div>

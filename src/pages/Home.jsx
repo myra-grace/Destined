@@ -27,9 +27,8 @@ export function Home() {
 
             <Schedule />
 
-            {/* Images here */}
-
             {/* Icons w/ text locations w/ pin link */}
+            <div>Icons w/ text component here</div>
         </>
     )
 }
