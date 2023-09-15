@@ -1,14 +1,14 @@
 @use './colors.scss' as *;
 
 html, body {
-    margin: 0;
-    padding: 0;
-    width: calc(100vw - 10px);
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: calc(100vw - 10px);
+  box-sizing: border-box;
 
-    & * {
-        box-sizing: border-box;
-    }
+  & * {
+      box-sizing: border-box;
+  }
 }
 
 /* width */
@@ -32,22 +32,22 @@ html, body {
 }
 
 @mixin standard-margin-top {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 @mixin standard-padding {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 @mixin container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .container {
-    @include container;
-    width: 100%;
-    margin: auto;
-    max-width: 1440px;
+  @include container;
+  width: 100%;
+  margin: auto;
+  max-width: 1440px;
 }

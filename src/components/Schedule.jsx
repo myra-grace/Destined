@@ -40,46 +40,46 @@ export function Schedule() {
     ;
 
     const sundayContent = 
-    <>
-        <SessionItem time="8:00am" facilitator="Lance Kelly" title="Morning fitness"/>
-        <SessionItem time="8:30am" facilitator="Cherlynn De Asis" title="Morning devotional 2"/>
-        <SessionItem time="9:00am to 10:00am" title="Breakfast" slotFill={ 2 }/>
-        <SessionItem time="10:00am to 11:30am" facilitator="Myra Salinas" title="Understanding myself & others" slotFill={ 3 }/>
-        <SessionItem time="11:30am to 12:00pm"/>
-        <SessionItem time="12:00am to 1:00pm" facilitator="Guido Clement" title="My body is a temple" slotFill={ 2 }/>
-        <SessionItem time="1:00pm to 1:30pm"/>
-        <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
-        <SessionItem time="2:30pm to 3:30pm" facilitator="Pastor Bon" title="Effective decision-making" slotFill={ 2 }/>
-        <SessionItem time="3:30pm to 4:00pm"/>
-        <SessionItem time="4:00pm to 5:00pm" facilitator="Erik Juanich" title="Effective communication" slotFill={ 2 }/>
-        <SessionItem time="5:00pm to 8:00pm" facilitator="Pia Marie & Joseph Daniel" title="Cooking class & BBQ Dinner" slotFill={ 6 }/>
-        <SessionItem time="8:00pm to 8:30pm"/>
-        <SessionItem time="8:30pm to 9:00pm" facilitator="Marc Vicuna" title="Evening devotional 3"/>
-        <SessionItem time="9:00pm to 10:00pm" title="Hot choco / Tea time" slotFill={ 2 }/>
-        <SessionItem time="10:00pm to 11:00pm" slotFill={ 2 }/>
-        <SessionItem time="10:30pm to 11:00pm" title="Lights out"/>
-    </>
+        <>
+            <SessionItem time="8:00am" facilitator="Lance Kelly" title="Morning fitness"/>
+            <SessionItem time="8:30am" facilitator="Cherlynn De Asis" title="Morning devotional 2"/>
+            <SessionItem time="9:00am to 10:00am" title="Breakfast" slotFill={ 2 }/>
+            <SessionItem time="10:00am to 11:30am" facilitator="Myra Salinas" title="Understanding myself & others" slotFill={ 3 }/>
+            <SessionItem time="11:30am to 12:00pm"/>
+            <SessionItem time="12:00am to 1:00pm" facilitator="Guido Clement" title="My body is a temple" slotFill={ 2 }/>
+            <SessionItem time="1:00pm to 1:30pm"/>
+            <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
+            <SessionItem time="2:30pm to 3:30pm" facilitator="Pastor Bon" title="Effective decision-making" slotFill={ 2 }/>
+            <SessionItem time="3:30pm to 4:00pm"/>
+            <SessionItem time="4:00pm to 5:00pm" facilitator="Erik Juanich" title="Effective communication" slotFill={ 2 }/>
+            <SessionItem time="5:00pm to 8:00pm" facilitator="Pia Marie & Joseph Daniel" title="Cooking class & BBQ Dinner" slotFill={ 6 }/>
+            <SessionItem time="8:00pm to 8:30pm"/>
+            <SessionItem time="8:30pm to 9:00pm" facilitator="Marc Vicuna" title="Evening devotional 3"/>
+            <SessionItem time="9:00pm to 10:00pm" title="Hot choco / Tea time" slotFill={ 2 }/>
+            <SessionItem time="10:00pm to 11:00pm" slotFill={ 2 }/>
+            <SessionItem time="10:30pm to 11:00pm" title="Lights out"/>
+        </>
     ;
 
     const mondayContent = 
-    <>
-        <SessionItem time="8:00am" facilitator="Lance Kelly" title="Morning fitness"/>
-        <SessionItem time="8:30am" facilitator="Cybill Lorraine" title="Morning devotional 1"/>
-        <SessionItem time="9:00am to 10:00am" title="Breakfast" slotFill={ 2 }/>
-        <SessionItem time="10:00am to 11:00am" facilitator="Mellory May" title="Management - time & money" slotFill={ 2 }/>
-        <SessionItem time="11:00am to 11:30am"/>
-        <SessionItem time="11:30am to 12:30pm" facilitator="Myra Salinas" title="Resolution" slotFill={ 2 }/>
-        <SessionItem time="12:30pm to 1:30pm" title="Packup time!" slotFill={ 2 }/>
-        <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
-        <SessionItem time="2:30pm to 6:00pm" title="Hike" slotFill={ 7 }/>
-        <SessionItem time="6:00pm to 7:00pm" title="Dinner" slotFill={ 2 }/>
-        <SessionItem time="7:00pm to 9:00pm" title="Convoy travel" slotFill={ 4 }/>
-    </>
+        <>
+            <SessionItem time="8:00am" facilitator="Lance Kelly" title="Morning fitness"/>
+            <SessionItem time="8:30am" facilitator="Cybill Lorraine" title="Morning devotional 1"/>
+            <SessionItem time="9:00am to 10:00am" title="Breakfast" slotFill={ 2 }/>
+            <SessionItem time="10:00am to 11:00am" facilitator="Mellory May" title="Management - time & money" slotFill={ 2 }/>
+            <SessionItem time="11:00am to 11:30am"/>
+            <SessionItem time="11:30am to 12:30pm" facilitator="Myra Salinas" title="Resolution" slotFill={ 2 }/>
+            <SessionItem time="12:30pm to 1:30pm" title="Packup time!" slotFill={ 2 }/>
+            <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
+            <SessionItem time="2:30pm to 6:00pm" title="Hike" slotFill={ 7 }/>
+            <SessionItem time="6:00pm to 7:00pm" title="Dinner" slotFill={ 2 }/>
+            <SessionItem time="7:00pm to 9:00pm" title="Convoy travel" slotFill={ 4 }/>
+        </>
     ;
     
     return (
         <div className='schedule__wrapper'>
-            <h2 className='schedule__title'>Schedule</h2>
+            <h2 className='schedule__title'>Daily schedule</h2>
 
             <div className='schedule__inner'>
                 <div className='schedule__time'>

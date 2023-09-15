@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import { Link, Route, Routes } from 'react-router-dom';
 import { MainNav } from "./components/MainNav";
 import { Home } from './pages/Home';
-import { Details } from './pages/Details';
-import { Admin } from './pages/Admin';
-import { AdminList } from './pages/AdminList';
+import { Sessions } from './pages/Sessions';
+import { Facilitators } from './pages/Facilitators';
+import { FacilitatorList } from './pages/FacilitatorList';
 import { Footer } from "./components/Footer";
-import { UiKit } from './pages/UiKit';
+import { UiKit } from './pages/uiKit';
 
 import './App.scss';
 import './styles/layout.scss';
@@ -20,11 +20,11 @@ function App() {
     <>
       <MainNav />
 
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Home />}/>
-        <Route path="/details" element={<Details />}/>
-        <Route path="/admin" element={<AdminList />}/>
-        <Route path="/admin/:id" element={<Admin />}/>
+        <Route path="/sessions" element={<Sessions />}/>
+        <Route path="/facilitators" element={<FacilitatorList />}/>
+        <Route path="/facilitators/:id" element={<Facilitators />}/>
         <Route path="/ui-kit" element={<UiKit />}/>
       </Routes>
 
@@ -34,3 +34,11 @@ function App() {
 }
 
 export default App;
+
+// TODO:
+// Footer styles
+// Landing page - Poster, checklist, & contact to buy ticket.
+// Homepage icons w/ text location cards. Church, Cottage, Gym, Hiking.
+// Schedule titles links to session details. Accorion only opens when click day or empty gray space.
+// Schedule item colors.
+// Music page & theme song "Destined for greatness."

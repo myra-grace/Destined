@@ -1,9 +1,24 @@
 @use '../colors.scss' as *;
+@use '../layout.scss' as *;
 
 .footer {
     &__wrapper {
         @include color-profile-primary;
-        padding: 1rem;
+    }
+
+    &__inner {
+        padding: 1rem 0;
+        @include container;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
+    }
+
+    &__nav {
+        width: 100%;
+        max-width: 600px;
     }
 
     &__ul {
@@ -14,5 +29,12 @@
 
     &__item {
         list-style: none;
+    }
+
+    &__bottom {
+        padding: 0.5rem 0;
+        @include container;
+        @include color-profile-main;
+        text-align: center;
     }
 }
