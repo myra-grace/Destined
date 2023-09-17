@@ -1,7 +1,10 @@
 import { Schedule } from '../components/Schedule';
+import { IconWithText } from '../components/IconWithText';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faHouseChimneyWindow } from '@fortawesome/free-solid-svg-icons';
 
 import '../styles/pages/home.scss';
 
@@ -28,7 +31,10 @@ export function Home() {
             <Schedule />
 
             {/* Icons w/ text locations w/ pin link */}
-            <div>Icons w/ text component here</div>
+            <div className='icon-with-text__parent'>
+                Icons w/ text component in here
+                <IconWithText title="Cottage" link="/" icon={<FontAwesomeIcon icon={ faHouseChimneyWindow }/>} address="1234 example" />
+            </div>
         </>
     )
 }

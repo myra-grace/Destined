@@ -1,0 +1,15 @@
+@use '../colors.scss' as *;
+@use '../layout.scss' as *;
+
+.icon-with-text {
+   &__parent {
+    @include container;
+    // parent code here
+    background-color: bisque;
+   }
+
+   &__wrapper {
+    // card code here
+    background-color: aquamarine;
+   }
+}
