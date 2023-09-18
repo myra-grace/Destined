@@ -1,6 +1,13 @@
 @use '../colors.scss' as *;
 
 .landing {
+    &__top {
+        padding: 0.5rem 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+    }
+
     &__hero {
         text-align: center;
 

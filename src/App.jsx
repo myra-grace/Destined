@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { MainNav } from "./components/MainNav";
+import { Header } from "./components/Header";
 import { Home } from './pages/Home';
 import { Sessions } from './pages/Sessions';
 import { Facilitators } from './pages/Facilitators';
@@ -18,7 +18,7 @@ import './styles/buttons.scss';
 function App() {
   return (
     <>
-      <MainNav />
+      <Header />
 
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Home />}/>

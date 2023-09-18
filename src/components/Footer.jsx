@@ -1,7 +1,14 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import '../styles/components/footer.scss';
 
 export function Footer() {
+    const location = useLocation();
+    const hideHeaderForPaths = ['/landing'];
+
+    if(hideHeaderForPaths.includes(location.pathname)) {
+        return <></>;
+    }
+
     return (
         <div className="footer__wrapper">
             <div className="footer__inner">

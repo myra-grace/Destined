@@ -7,6 +7,8 @@ import poster from '../assets/yr-poster-2023.png';
 export function Landing() {
     return (
         <>
+            <div className="landing__top color-profile-primary"><span>Kick-off @ MFSDAC 6pm, Friday Oct. 6</span></div>
+
             <div className='landing__hero container standard-padding'>
                 <h1 className='landing__hero-title'>
                     <span className='landing__hero-title-pre type--pretitle'>You've been invited to</span>
@@ -41,7 +43,7 @@ export function Landing() {
                 </h2>
                 <h3>Date and time</h3>
                 <p>Friday October 6 at 6pm</p>
-                <h3>Location</h3>
+                <h3 className='standard-margin-top'>Location</h3>
                 <p>Montreal Filipino SDA church: 590 Fortune St, Montreal, Quebec H3K 2R6</p>
 
                 <div className='standard-margin-top'>
@@ -62,6 +64,8 @@ export function Landing() {
                     <li>Toiletries</li>
                 </ul>
             </div>
+
+            <div className="footer__bottom color-profile-primary"><span>Montreal Filipino Seventh-Day Adventist Church</span></div>
         </>
     );
 }
