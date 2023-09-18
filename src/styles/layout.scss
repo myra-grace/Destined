@@ -45,9 +45,34 @@ html, body {
   padding-right: 2rem;
 }
 
+.standard-padding {
+  @include standard-padding;
+}
+
 .container {
   @include container;
   width: 100%;
   margin: auto;
   max-width: 1440px;
+}
+
+.standard-margin-top {
+  @include standard-margin-top;
+}
+
+.top-divider {
+  position: relative;
+
+  &::after {
+    content: "";
+    background-color: currentColor;
+    position: absolute;
+    margin: auto;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    min-width: 60vw;
+    width: 200px;
+    height: 1px;
+  }
 }

@@ -15,8 +15,14 @@ export function Home() {
                 <span className='type--subtitle'>Youth retreat</span>
                 <h1 className='type--title'>Destined</h1>
                 <div className='home__stamp-subtext'>
-                    <div><FontAwesomeIcon icon={faCalendar} /><span className='type--subtitle'>October 6-9</span></div>
-                    <div><FontAwesomeIcon icon={faLocationDot} /><span className='type--subtitle'>Labelle, QC</span></div>
+                    <div className='home__stamp-icon-text'>
+                        <FontAwesomeIcon icon={faCalendar} />
+                        <span className='type--subtitle'>October 6-9</span>
+                    </div>
+                    <div className='home__stamp-icon-text'>
+                        <FontAwesomeIcon icon={faLocationDot} />
+                        <span className='type--subtitle'>Labelle, QC</span>
+                    </div>
                 </div>
 
                 <div>

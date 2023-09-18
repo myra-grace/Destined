@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import { Link, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { MainNav } from "./components/MainNav";
 import { Home } from './pages/Home';
 import { Sessions } from './pages/Sessions';
 import { Facilitators } from './pages/Facilitators';
 import { FacilitatorList } from './pages/FacilitatorList';
+import { Landing } from './pages/Landing';
 import { Footer } from "./components/Footer";
 import { UiKit } from './pages/uiKit';
 
@@ -26,6 +26,7 @@ function App() {
         <Route path="/facilitators" element={<FacilitatorList />}/>
         <Route path="/facilitators/:id" element={<Facilitators />}/>
         <Route path="/ui-kit" element={<UiKit />}/>
+        <Route path="/landing" element={<Landing />}/>
       </Routes>
 
       <Footer />
