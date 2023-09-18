@@ -1,5 +1,6 @@
 @use '../colors.scss' as *;
 @use '../layout.scss' as *;
+@use '../helpers.scss' as *;
 
 .footer {
     &__wrapper {
@@ -7,24 +8,34 @@
     }
 
     &__inner {
-        padding: 1rem 0;
+        padding: 1.5rem 1rem;
         @include container;
-
+        flex-wrap: wrap;
+        
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 3rem;
+        justify-content: center;
+        gap: 1rem 3rem;
+        
+        @media screen and (min-width: $tablet) {
+            justify-content: space-between;
+        }
     }
 
     &__nav {
         width: 100%;
-        max-width: 600px;
+
+        @media screen and (min-width: $tablet) {
+            max-width: 600px;
+        }
     }
 
     &__ul {
         padding-left: 0;
         display: flex;
         justify-content: space-around;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     &__item {
