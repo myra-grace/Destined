@@ -33,7 +33,9 @@ export function Home() {
             {/* Icons w/ text locations w/ pin link */}
             <div className='icon-with-text__parent'>
                 Icons w/ text component in here
-                <IconWithText title="Cottage" link="/" icon={<FontAwesomeIcon icon={ faHouseChimneyWindow }/>} address="1234 example" />
+                <IconWithText title="Cottage"
+                 link="" 
+                 icon={<FontAwesomeIcon icon={ faHouseChimneyWindow }/>} address="1234 example" />
             </div>
         </>
     )

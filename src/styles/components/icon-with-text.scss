@@ -1,6 +1,7 @@
 @use '../colors.scss' as *;
 @use '../layout.scss' as *;
 
+
 .icon-with-text {
    &__parent {
     @include container;
@@ -11,5 +12,7 @@
    &__wrapper {
     // card code here
     background-color: aquamarine;
+    border: 0;
    }
+   
 }
