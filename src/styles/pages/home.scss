@@ -15,9 +15,11 @@
         display: flex;
         justify-content: center;
         gap: 2rem;
+    }
 
-        svg {
-            margin-right: 5px;
-        }
+    &__stamp-icon-text {
+        display: grid;
+        place-items: center;
+        gap: 0.5rem;
     }
 }

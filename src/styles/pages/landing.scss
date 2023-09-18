@@ -1,0 +1,65 @@
+@use '../colors.scss' as *;
+
+.landing {
+    &__hero {
+        text-align: center;
+
+        &.verse {
+            background-color: var(--primary);
+        }
+    }
+
+    &__hero-title {
+        span {
+            display: block;
+        }
+    }
+
+    &__hero-details {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        svg {
+            margin-right: 0.5rem;
+        }
+    }
+
+    &__hero-verse {
+        margin: auto;
+        max-width: 650px;
+
+        span {
+            display: block;
+            font-style: italic;
+        }
+    }
+
+    &__hero-content {
+        margin: auto;
+        max-width: 980px;
+    }
+
+    &__poster {
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+
+    &__kick-off-title {
+        text-align: center;
+        max-width: max-content;
+        margin: auto;
+        
+        span {
+            display: block;
+        }
+    }
+
+    &__checklist-title.standard-padding {
+        padding-bottom: 2rem;
+    }
+}
