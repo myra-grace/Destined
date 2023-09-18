@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import { Header } from "./components/Header";
 import { Home } from './pages/Home';
+import { Music } from './pages/Music';
 import { Sessions } from './pages/Sessions';
 import { Facilitators } from './pages/Facilitators';
 import { FacilitatorList } from './pages/FacilitatorList';
@@ -22,6 +23,7 @@ function App() {
 
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Home />}/>
+        <Route path="/music" element={<Music />}/>
         <Route path="/sessions" element={<Sessions />}/>
         <Route path="/facilitators" element={<FacilitatorList />}/>
         <Route path="/facilitators/:id" element={<Facilitators />}/>

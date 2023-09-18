@@ -1,0 +1,13 @@
+@use '../colors.scss' as *;
+
+.music {
+    &__wrapper {
+        span {
+            display: block;
+        }
+    }
+    
+    &__grand-title {
+        text-align: center;
+    }
+}
