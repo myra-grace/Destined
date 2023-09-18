@@ -17,10 +17,12 @@
     }
 
     &__item {
+        width: 5rem;
+        min-width: max-content;
+        margin: 0 1rem;
         display: grid;
         place-items: center;
         list-style: none;
-        width: 4.2rem;
 
         a:not(.type--accent) {
             font-size: 1.2rem;

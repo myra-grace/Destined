@@ -24,6 +24,7 @@
 
     &__time {
         margin: 8.4rem 1rem 0 -0.9rem;
+        pointer-events: none;
         display: grid;
         text-align: right;
         position: absolute;

@@ -7,7 +7,7 @@
         cursor: pointer;
         transition: 0.2s;
         position: relative;
-        background-color: gainsboro;
+        background-color: var(--tertiary);
         border: 1px solid var(--primary);
         margin-left: -1rem;
         box-shadow: -8px 8px 5px 0 rgba(0, 0, 0, 0.3);
@@ -34,7 +34,7 @@
 
             .session-item__wrapper {
                 &::after {
-                    opacity: 0.2;
+                    opacity: 0.3;
                 }
             }
         }
@@ -72,10 +72,10 @@
 
         .session-item__wrapper {
             &:nth-child(odd)::after {
-                background-color: var(--primary);
+                background-color: var(--tertiary);
             }
             &:nth-child(even)::after {
-                background-color: var(--secondary);
+                background-color: var(--primary);
             }
         }
     }

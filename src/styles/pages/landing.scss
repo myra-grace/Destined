@@ -1,4 +1,5 @@
 @use '../colors.scss' as *;
+@use '../helpers.scss' as *;
 
 .landing {
     &__top {
@@ -6,6 +7,7 @@
         text-align: center;
         position: sticky;
         top: 0;
+        z-index: 5;
     }
 
     &__hero {
@@ -35,6 +37,10 @@
     &__hero-verse {
         margin: auto;
         max-width: 650px;
+
+        @media screen and (min-width: $tablet) {
+            font-size: 1.2rem;
+        }
 
         span {
             display: block;
