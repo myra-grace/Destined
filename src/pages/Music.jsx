@@ -4,8 +4,7 @@ export function Music() {
     return (
         <div className="music__wrapper container standard-padding">
             <h1 className="music__grand-title">Music List</h1>
-            {/* List of songs as links to lyrics */}
-            <h2 className="music__title standard-margin-top"><span className="type--pretitle">Faith first</span>Destined for greatness</h2>
+            <h2 className="music__title standard-margin-top"><span className="type--pretitle">Theme song by Faith First</span>Destined for Greatness</h2>
             <h3 className="standard-margin-top">Verse</h3>
             <p>
                 <span>A fresh wind is blowing</span>
@@ -75,12 +74,13 @@ export function Music() {
                 <span>Let His mighty kingdom triumph</span>
                 <span>Let us give our very lives</span>
             </p>
-            <h3 className="standard-margin-top">Chorus<span>x2</span></h3>
+            <h3 className="standard-margin-top">Chorus x2</h3>
             <p>
-                <span>We are destined (we are destined)<span>x3</span></span>
+                <span>We are destined (we are destined) x3</span>
                 <span>Destined for Greatness!</span>
             </p>
 
+            {/* List of songs as links to lyrics */}
             <h2 className="standard-padding standard-margin-top">Links to song lyrics</h2>
             <ol>
                 <li><a href="/">Song title</a></li>

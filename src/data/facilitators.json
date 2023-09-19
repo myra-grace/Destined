@@ -1,5 +1,6 @@
-{
-    "myra-grace": {
+[
+    {   
+        "id": "myra-grace",
         "name": "Myra Grace",
         "role": "Youth Leader",
         "responsibilities": {
@@ -8,48 +9,332 @@
                     "time": "18h00",
                     "title": "Vesper",
                     "description": "Themed \"Destined,\" this youth retreat is aimed to help you discover your destiny. From a Christ centered approach, we'll discuss topics of: life direction, character building, and practical living. Participate in engaging lectures, sermonettes, and workshops. Also, enjoy physical and hands-on activities such as: hiking, cooking, and wellness pursuits.",
-                    "task": "Vesper"
+                    "task": "Vesper",
+                    "session": false
                 },
                 {
                     "time": "19h00",
                     "title": "Convoy",
                     "task": "Convoy",
-                    "description": "Travelling to Labelle in convoy"
+                    "description": "Travelling to Labelle in convoy",
+                    "session": true
                 }
             ],
             "saturday": [
                 {
                     "time": "14h30",
-                    "title": "Nature walk",
+                    "title": "Nature Walk",
                     "description": "Take everyone for a walk in the woods.",
-                    "task": "Take everyone for a nature walk"
+                    "task": "Take everyone for a nature walk",
+                    "session": true
                 },
                 {
                     "time": "19h00",
                     "title": "Gym",
                     "description": "Get everyone to the gym in Labelle",
-                    "task": "Get everyone to the gym"
+                    "task": "Get everyone to the gym",
+                    "session": true
                 }
             ],
             "sunday": [
                 {
                     "time": "10h00 to 11h00",
-                    "title": "Understanding myself & others",
+                    "title": "Understanding Myself & Others",
+                    "facilitator": "Myra Grace",
                     "description": "Understanding myself & others - personality test & life builder",
-                    "task": "Lecture - Understanding myself & others"
+                    "task": "Lecture - Understanding myself & others",
+                    "session": true
                 }
             ],
             "monday": [
                 {
                     "time": "11h30 to 12h30",
                     "title": "Resolution",
+                    "facilitator": "Myra Grace",
                     "description": "Concluding discussion.",
-                    "task": "Facilitate - Resolution"
+                    "task": "Facilitate - Resolution",
+                    "session": true
+                },
+                {
+                    "time": "14h30 to 18h00",
+                    "title": "Hiking",
+                    "description": "Hiking address",
+                    "task": "Facilitate - Resolution",
+                    "session": true
+                },
+                {
+                    "time": "19h00",
+                    "title": "Convoy",
+                    "task": "Convoy",
+                    "description": "Travelling to Montreal in convoy",
+                    "session": true
                 }
             ],
             "general": [
                 "Manage event"
             ]
         }
+    },
+    {
+        "id": "marc-lovem",
+        "name": "Marc Lovem",
+        "role": "Overseeing Elder",
+        "responsibilities": {
+            "saturday": [
+                {
+                    "time": "11h30",
+                    "title": "Butterfly Effect",
+                    "facilitator": "Marc Lovem",
+                    "description": "What should I offer to society, and what does society offer me?",
+                    "task": "Sermonette",
+                    "session": true
+                }
+            ],
+            "general": [
+                "Oversee event"
+            ]
+        }
+    },
+    {
+        "id": "mellory-may",
+        "name": "Mellory May",
+        "role": "Locations coordinator",
+        "responsibilities": {
+            "saturday": [
+                {
+                    "time": "15h30",
+                    "title": "Ladies & Gentlemen",
+                    "facilitator": "Mellory May",
+                    "description": "How to own womanhood / manhood",
+                    "task": "Workshop",
+                    "session": true
+                }
+            ],
+            "monday": [
+                {
+                    "time": "10h00 to 11h00",
+                    "title": "Management - Time & Money",
+                    "facilitator": "Mellory May",
+                    "description": "How to manage your time & money",
+                    "task": "Workshop",
+                    "session": true
+                }
+            ],
+            "general": [
+                "Manage everything location for the event"
+            ]
+        }
+    },
+    {
+        "id": "marc-vicuna",
+        "name": "Marc Vicuna",
+        "role": "Participating Elder",
+        "responsibilities": {
+            "friday": [
+                {
+                    "time": "18h30",
+                    "title": "Destined",
+                    "facilitator": "Marc Vicuna",
+                    "description": "Vesper Kick-off",
+                    "task": "Sermonette",
+                    "session": true
+                }
+            ],
+            "saturday": [
+                {
+                    "time": "20h30",
+                    "title": "Evening Devotional 3",
+                    "facilitator": "Marc Vicuna",
+                    "description": "My body is a temple (part 2)",
+                    "task": "Short devotional",
+                    "session": true
+                }
+            ]
+        }
+    },
+    {
+        "id": "marsjey-hymn",
+        "name": "Marsjey Hymn",
+        "role": "Devotional facilitator",
+        "responsibilities": {
+            "saturday": [
+                {
+                    "time": "08h30",
+                    "title": "Morning Devotional 1",
+                    "facilitator": "Marsjey Hymn",
+                    "description": "My body is a temple (part 2)",
+                    "task": "Short devotional",
+                    "session": true
+                }
+            ]
+        }
+    },
+    {
+        "id": "unknown",
+        "name": "Unknown",
+        "role": "Facilitator",
+        "responsibilities": {
+            "saturday": [
+                {
+                    "time": "10h00",
+                    "title": "Where am I?",
+                    "facilitator": "Unknown",
+                    "description": "Where am I in life? Self improvement responsibility & Family responsibility",
+                    "task": "Workshop",
+                    "session": true
+                },
+                {
+                    "time": "15h30",
+                    "title": "Ladies & Gentlemen",
+                    "facilitator": "Unknown",
+                    "description": "How to own womanhood / manhood",
+                    "task": "Workshop",
+                    "session": true
+                }
+            ],
+            "sunday": [
+                {
+                    "time": "16h00",
+                    "title": "Effective Communication",
+                    "facilitator": "Unknown",
+                    "description": "How to effectively communicate",
+                    "task": "Workshop",
+                    "session": true
+                }
+            ]
+        }
+    },
+    {
+        "id": "beverley-kate",
+        "name": "Beverley Kate",
+        "role": "Devotional facilitator",
+        "responsibilities": {
+            "saturday": [
+                {
+                    "time": "17h30",
+                    "title": "Evening Devotional 2",
+                    "facilitator": "Beverley Kate",
+                    "description": "What should I offer to society, and what does society offer me?",
+                    "task": "Short devotional",
+                    "session": true
+                }
+            ],
+            "general": [
+                "Oversee event"
+            ]
+        }
+    },
+    {
+        "id": "guido-clement",
+        "name": "Guido Clement",
+        "role": "Workshop facilitator and Health & Safety coordinator",
+        "responsibilities": {
+            "sunday": [
+                {
+                    "time": "12h00",
+                    "title": "My Body is a Temple (part 1)",
+                    "facilitator": "Guido Clement",
+                    "description": "Health & Wellness: build a lifestyle (write up schedules & establish a routine) Practical heavy. Talk about sticking to it.",
+                    "task": "Facilitate workshop",
+                    "session": true
+                }
+            ],
+            "general": [
+                "Health & Safety coordinator"
+            ]
+        }
+    },
+    {
+        "id": "pastor-bon",
+        "name": "Pastor Bon",
+        "role": "Workshop facilitator",
+        "responsibilities": {
+            "sunday": [
+                {
+                    "time": "14h30",
+                    "title": "Effective Decision Making",
+                    "facilitator": "Pastor Bon",
+                    "description": "Tips and steps to effective decision making.",
+                    "task": "Facilitate workshop",
+                    "session": true
+                }
+            ]
+        }
+    },
+    {
+        "id": "lance-kelly",
+        "name": "Lance Kelly",
+        "role": "Fitness facilitator and Health & Safety coordinator",
+        "responsibilities": {
+            "general": [
+                "Short fitness routine every morning at 8am",
+                "Assess for health & safety of guests"
+            ]
+        }
+    },
+    {
+        "id": "jan-chester",
+        "name": "Jan Chester",
+        "role": "Tools lead, Health & Safety coordinator, and Website Associate",
+        "responsibilities": {
+            "general": [
+                "Prepare tool-kit for the event",
+                "Mr. do-it-all for the event",
+                "Coordinate with the other Health & Safety members"
+            ]
+        }
+    },
+    {
+        "id": "ralf-suertegosa",
+        "name": "Ralf Suertegosa",
+        "role": "Camping coordinator, and Health & Safety coordinator",
+        "responsibilities": {
+            "general": [
+                "Prepare camping-kit for the event",
+                "Coordinate with the other Health & Safety members"
+            ]
+        }
+    },
+    {
+        "id": "pia-marie",
+        "name": "Pia Marie",
+        "role": "Food coordinator",
+        "responsibilities": {
+            "sunday": [
+                {
+                    "time": "17h00",
+                    "title": "Cooking class & BBQ",
+                    "facilitator": "Pia Marie & Joseph Daniel",
+                    "description": "Cooking class & BBQ",
+                    "task": "Facilitate cooking class workshop & BBQ",
+                    "session": true
+                }
+            ],
+            "general": [
+                "Prepare food for the event",
+                "Coordinate transportation & storage of food"
+            ]
+        }
+    },
+    {
+        "id": "joseph-daniel",
+        "name": "Joseph Daniel",
+        "role": "Food coordinator",
+        "responsibilities": {
+            "sunday": [
+                {
+                    "time": "17h00",
+                    "title": "Cooking class & BBQ",
+                    "facilitator": "Pia Marie & Joseph Daniel",
+                    "description": "Cooking class & BBQ",
+                    "task": "Facilitate cooking class workshop & BBQ",
+                    "session": true
+                }
+            ],
+            "general": [
+                "Prepare food for the event",
+                "Coordinate transportation & storage of food"
+            ]
+        }
     }
-}
+]
