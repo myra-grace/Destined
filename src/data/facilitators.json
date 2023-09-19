@@ -16,7 +16,7 @@
                     "time": "19h00",
                     "title": "Convoy",
                     "task": "Convoy",
-                    "description": "Travelling to Labelle in convoy",
+                    "description": "Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
                     "session": true
                 }
             ],
@@ -66,7 +66,7 @@
                     "time": "19h00",
                     "title": "Convoy",
                     "task": "Convoy",
-                    "description": "Travelling to Montreal in convoy",
+                    "description": "Travelling to Montreal in convoy. Leaving at 7pm. Expected arrival: 9pm.",
                     "session": true
                 }
             ],
@@ -140,7 +140,7 @@
                     "session": true
                 }
             ],
-            "saturday": [
+            "sunday": [
                 {
                     "time": "20h30",
                     "title": "Evening Devotional 3",
@@ -232,9 +232,9 @@
             "sunday": [
                 {
                     "time": "12h00",
-                    "title": "My Body is a Temple (part 1)",
+                    "title": "My Body is a Temple",
                     "facilitator": "Guido Clement",
-                    "description": "Health & Wellness: build a lifestyle (write up schedules & establish a routine) Practical heavy. Talk about sticking to it.",
+                    "description": "My body is a temple (part 1). Health & Wellness: build a lifestyle (write up schedules & establish a routine) Practical heavy. Talk about sticking to it.",
                     "task": "Facilitate workshop",
                     "session": true
                 }

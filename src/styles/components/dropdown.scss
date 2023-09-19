@@ -13,12 +13,24 @@
     }
 
     &__title {
-        font-size: 2.5em;
+        font-size: 2.2em;
         font-family: "Darker Grotesque", sans-serif;
         background-color: var(--secondary);
         border-radius: 1.5rem;
-        padding: 0.5rem 2.5rem 1rem;
+        padding: 0.5rem 4.5rem 1rem 2.5rem;
+        position: relative;
         cursor: pointer;
+
+        svg {
+            transition: 0.2s;
+            width: auto;
+            height: 1.3rem;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 1.5rem;
+            bottom: 0;
+        }
     }
 
     &__content-wrapper {
@@ -31,9 +43,17 @@
         opacity: 0;
     }
 
+    &__content {
+        margin: 1rem 0;
+    }
+
     &__details[data-state="open"] & {
         &__title {
             border-radius: 1.5rem 1.5rem 0 0;
+
+            svg {
+                transform: rotate(180deg);
+            }
         }
 
         &__content-wrapper {

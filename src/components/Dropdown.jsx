@@ -1,5 +1,7 @@
 import '../styles/components/dropdown.scss'
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 export function Dropdown(props) {
     const { id, title, time, facilitator, content, open, parent } = props;
@@ -11,8 +13,7 @@ export function Dropdown(props) {
             const childdropdowns = parentElement.querySelectorAll('[data-id]');
 
             childdropdowns.forEach(dropdown => {
-                console.log("dropdown: ", dropdown);
-                if (dropdown.dataset.id == id) {
+                if (dropdown.dataset.id === id) {
                     dropdown.dataset.state = 'open';
                 } else {
                     dropdown.dataset.state = 'close';
@@ -25,7 +26,7 @@ export function Dropdown(props) {
 
     return (
         <div aria-label={ title } className='dropdown__details' data-state={ expand ? 'open' : 'close' }>
-            <h3 className='dropdown__title' onClick={ toggleExpand }>{title}</h3>
+            <h3 className='dropdown__title' onClick={ toggleExpand }>{title}<FontAwesomeIcon icon={faAngleDown} /></h3>
             <div className='dropdown__content-wrapper'>
                 <p>{time}{ facilitator ? <span> - {facilitator}</span> : null}</p>
                 <div className='dropdown__content'>

@@ -11,7 +11,7 @@ export function Header() {
 
     return (
         <nav className="header__wrapper">
-            <ul className="header__ul container">
+            <ul className="header__ul">
                 <li className="header__item">
                     <Link to="/music" className='link link--hover-underline type--subtitle' data-title='Music'>Music</Link>
                 </li>

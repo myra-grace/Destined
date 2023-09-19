@@ -55,26 +55,26 @@ export function Sessions() {
     return (
         <div className="container">
             <h1 className="sessions__title standard-padding">Sessions</h1>
-            <p className="sessions__description container">Find out more about lecture, workshops, sermonettes, and other activities!</p>
+            <p className="sessions__description container">Find out more about lectures, workshops, sermonettes, and other activities!</p>
 
             <h2 className="standard-padding">Friday</h2>
-            {fridaySessions.map((item) => (
-                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description}/>
+            {fridaySessions.map((item, index) => (
+                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
             ))}
 
             <h2 className="standard-padding standard-margin-top">Saturday</h2>
-            {saturdaySessions.map((item) => (
-                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description}/>
+            {saturdaySessions.map((item, index) => (
+                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
             ))}
 
             <h2 className="standard-padding standard-margin-top">Sunday</h2>
-            {sundaySessions.map((item) => (
-                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description}/>
+            {sundaySessions.map((item, index) => (
+                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
             ))}
 
             <h2 className="standard-padding standard-margin-top">Monday</h2>
-            {mondaySessions.map((item) => (
-                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description}/>
+            {mondaySessions.map((item, index) => (
+                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
             ))}
         </div>
     )
