@@ -37,8 +37,8 @@ export function Landing() {
                 <img src={ poster } alt="Event poster" />
             </div>
 
-            <div className='landing__kick-off container standard-padding top-divider'>
-                <h2 className='landing__kick-off-title standard-padding'>
+            <div className='landing__kick-off container standard-padding'>
+                <h2 className='landing__kick-off-title standard-padding top-divider'>
                     <span className='type--pretitle'>Join us at the</span>Kick-off
                 </h2>
                 <h3>Date and time</h3>
@@ -51,8 +51,8 @@ export function Landing() {
                 </div>
             </div>
 
-            <div className='landing__checklist container standard-padding top-divider'>
-                <h2 className='landing__checklist-title standard-padding'>Please bring</h2>
+            <div className='landing__checklist container standard-padding'>
+                <h2 className='landing__checklist-title standard-padding top-divider'>Please bring</h2>
 
                 <ul>
                     <li>Cloths (for 3 days & 3 nights)</li>

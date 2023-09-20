@@ -17,7 +17,6 @@
       (function(l) {
         if (l.search[1] === '/' ) {
           var decoded = l.search.slice(1).split('&').map(function(s) { 
-            console.log("******** REDIRECT SCRIPT ********");
             return s.replace(/~and~/g, '&')
           }).join('?');
           window.history.replaceState(null, null,

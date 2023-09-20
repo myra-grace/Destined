@@ -1,0 +1,33 @@
+@use '../colors.scss' as *;
+
+.facilitators {
+    &__welcome, &__verse, &__title, &__description {
+        text-align: center;
+    }
+
+    &__responsibilities {
+        margin-top: 1.5rem;
+    }
+
+    &__name > .type--pretitle {
+        color: var(--secondary);
+        font-weight: bold;
+    }
+
+    &__highlight {
+        color: var(--primary);
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    &__verse {
+        font-size: 1.5em;
+        span {
+            display: block;
+        }
+    }
+
+    &__title.standard-padding {
+        padding-bottom: 1rem;
+    }
+}

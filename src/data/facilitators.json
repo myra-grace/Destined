@@ -1,7 +1,7 @@
 [
     {   
         "id": "myra-grace",
-        "name": "Myra Grace",
+        "name": "Myra-Grace",
         "role": "Youth Leader",
         "responsibilities": {
             "friday": [
@@ -71,7 +71,9 @@
                 }
             ],
             "general": [
-                "Manage event"
+                "Manage event",
+                "oversee coordinators",
+                "manage registration"
             ]
         }
     },
@@ -82,7 +84,7 @@
         "responsibilities": {
             "saturday": [
                 {
-                    "time": "11h30",
+                    "time": "11h30 to 13h00",
                     "title": "Butterfly Effect",
                     "facilitator": "Marc Lovem",
                     "description": "What should I offer to society, and what does society offer me?",
@@ -91,18 +93,20 @@
                 }
             ],
             "general": [
-                "Oversee event"
+                "Oversee event",
+                "contact special speakers",
+                "men's superintendent"
             ]
         }
     },
     {
         "id": "mellory-may",
         "name": "Mellory May",
-        "role": "Locations coordinator",
+        "role": "Locations Coordinator",
         "responsibilities": {
             "saturday": [
                 {
-                    "time": "15h30",
+                    "time": "15h30 to 17h00",
                     "title": "Ladies & Gentlemen",
                     "facilitator": "Mellory May",
                     "description": "How to own womanhood / manhood",
@@ -121,7 +125,8 @@
                 }
             ],
             "general": [
-                "Manage everything location for the event"
+                "Manage everything location for the event",
+                "women's superintendent"
             ]
         }
     },
@@ -155,7 +160,7 @@
     {
         "id": "marsjey-hymn",
         "name": "Marsjey Hymn",
-        "role": "Devotional facilitator",
+        "role": "Devotional Facilitator",
         "responsibilities": {
             "saturday": [
                 {
@@ -184,20 +189,10 @@
                     "session": true
                 },
                 {
-                    "time": "15h30",
+                    "time": "15h30 to 17h00",
                     "title": "Ladies & Gentlemen",
                     "facilitator": "Unknown",
                     "description": "How to own womanhood / manhood",
-                    "task": "Workshop",
-                    "session": true
-                }
-            ],
-            "sunday": [
-                {
-                    "time": "16h00",
-                    "title": "Effective Communication",
-                    "facilitator": "Unknown",
-                    "description": "How to effectively communicate",
                     "task": "Workshop",
                     "session": true
                 }
@@ -207,7 +202,7 @@
     {
         "id": "beverley-kate",
         "name": "Beverley Kate",
-        "role": "Devotional facilitator",
+        "role": "Devotional Facilitator",
         "responsibilities": {
             "saturday": [
                 {
@@ -227,7 +222,7 @@
     {
         "id": "guido-clement",
         "name": "Guido Clement",
-        "role": "Workshop facilitator and Health & Safety coordinator",
+        "role": "Workshop Facilitator and Health & Safety Coordinator",
         "responsibilities": {
             "sunday": [
                 {
@@ -247,7 +242,7 @@
     {
         "id": "pastor-bon",
         "name": "Pastor Bon",
-        "role": "Workshop facilitator",
+        "role": "Workshop Facilitator",
         "responsibilities": {
             "sunday": [
                 {
@@ -262,9 +257,26 @@
         }
     },
     {
+        "id": "marcello-casipit",
+        "name": "Marcello Casipit",
+        "role": "Workshop Facilitator",
+        "responsibilities": {
+            "sunday": [
+                {
+                    "time": "16h00",
+                    "title": "Effective Communication",
+                    "facilitator": "Unknown",
+                    "description": "How to effectively communicate",
+                    "task": "Workshop",
+                    "session": true
+                }
+            ]
+        }
+    },
+    {
         "id": "lance-kelly",
         "name": "Lance Kelly",
-        "role": "Fitness facilitator and Health & Safety coordinator",
+        "role": "Fitness Facilitator and Health & Safety Coordinator",
         "responsibilities": {
             "general": [
                 "Short fitness routine every morning at 8am",
@@ -275,7 +287,7 @@
     {
         "id": "jan-chester",
         "name": "Jan Chester",
-        "role": "Tools lead, Health & Safety coordinator, and Website Associate",
+        "role": "Tools Lead, Health & Safety Coordinator, and Website Associate",
         "responsibilities": {
             "general": [
                 "Prepare tool-kit for the event",
@@ -287,7 +299,7 @@
     {
         "id": "ralf-suertegosa",
         "name": "Ralf Suertegosa",
-        "role": "Camping coordinator, and Health & Safety coordinator",
+        "role": "Camping Coordinator, and Health & Safety Coordinator",
         "responsibilities": {
             "general": [
                 "Prepare camping-kit for the event",
@@ -298,7 +310,7 @@
     {
         "id": "pia-marie",
         "name": "Pia Marie",
-        "role": "Food coordinator",
+        "role": "Food Coordinator",
         "responsibilities": {
             "sunday": [
                 {
@@ -319,7 +331,7 @@
     {
         "id": "joseph-daniel",
         "name": "Joseph Daniel",
-        "role": "Food coordinator",
+        "role": "Food Coordinator",
         "responsibilities": {
             "sunday": [
                 {
