@@ -6,6 +6,7 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 export function Dropdown(props) {
     const { id, title, time, facilitator, content, open, parent } = props;
     const [ expand, setExpand ] = useState(open);
+    const htmlId = title.replace(/([a-z])([A-Z])/g, "$1-$2").replace(/[\s_]+/g, '-').replace('-&-', '-').toLowerCase();
     
     function toggleExpand() {
         if (parent) {
@@ -25,7 +26,7 @@ export function Dropdown(props) {
     }
 
     return (
-        <div aria-label={ title } className='dropdown__details' data-state={ expand ? 'open' : 'close' }>
+        <div aria-label={ title } id={ htmlId } className='dropdown__details' data-state={ expand ? 'open' : 'close' }>
             <h3 className='dropdown__title' onClick={ toggleExpand }>{title}<FontAwesomeIcon icon={faAngleDown} /></h3>
             <div className='dropdown__content-wrapper'>
                 <p>{time}{ facilitator ? <span> - {facilitator}</span> : null}</p>

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import facilitatorsData from "../data/facilitators.json";
 
-export function FacilitatorList() {
+export function Portal() {
     let sortedParticipantsArray = facilitatorsData.sort((a, b) => {
         if (a.name < b.name) {
             return -1;
@@ -20,7 +20,7 @@ export function FacilitatorList() {
             <ul>
                 {
                     sortedParticipantsArray.map(item => (
-                        <li><Link to={"/facilitators/" + encodeURI(item.id)}>{item.name}</Link></li>
+                        <li><Link to={"/portal/" + encodeURI(item.id)}>{item.name}</Link></li>
                     ))
                 }
             </ul>

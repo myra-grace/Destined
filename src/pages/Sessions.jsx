@@ -53,7 +53,7 @@ export function Sessions() {
     mondaySessions.sort(sortSessions);
 
     return (
-        <div className="facilitators container">
+        <div className="sessions container">
             <h1 className="sessions__title standard-padding">Sessions</h1>
             <p className="sessions__description container">Find out more about lectures, workshops, sermonettes, and other activities!</p>
 

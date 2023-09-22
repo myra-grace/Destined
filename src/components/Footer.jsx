@@ -21,7 +21,7 @@ export function Footer() {
                             <Link to="/landing" className='link link--hover-underline type--subtitle' data-title='Landing'>Landing</Link>
                         </li>
                         <li className="footer__item">
-                            <Link to="/facilitators" className='link link--hover-underline type--subtitle' data-title='Facilitators'>Facilitators</Link>
+                            <Link to="/portal" className='link link--hover-underline type--subtitle' data-title='Portal'>Portal</Link>
                         </li>
                         <li className="footer__item">
                             <Link to="/sessions" className='link link--hover-underline type--subtitle' data-title='Sessions'>Sessions</Link>
