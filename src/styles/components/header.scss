@@ -1,7 +1,7 @@
 
 @use '../colors.scss' as *;
 
-.main-nav {
+.header {
     &__wrapper {
         @include color-profile-primary;
         padding: 1rem;
@@ -17,10 +17,11 @@
     }
 
     &__item {
+        width: 5rem;
+        min-width: max-content;
         display: grid;
         place-items: center;
         list-style: none;
-        width: 4.2rem;
 
         a:not(.type--accent) {
             font-size: 1.2rem;

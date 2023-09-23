@@ -1,0 +1,66 @@
+@use '../typography.scss' as *;
+@use '../helpers.scss' as *;
+@use '../colors.scss' as *;
+
+.dropdown {
+    &__details {
+        margin-bottom: 4rem;
+    }
+
+    &__title, &__content-wrapper {
+        padding: 0 2.5rem;
+        transition: 0.2s;
+    }
+
+    &__title {
+        font-size: 2.2em;
+        font-family: "Darker Grotesque", sans-serif;
+        background-color: var(--secondary);
+        border-radius: 1.5rem;
+        padding: 0.5rem 4.5rem 1rem 2.5rem;
+        position: relative;
+        cursor: pointer;
+
+        svg {
+            transition: 0.2s;
+            width: auto;
+            height: 1.3rem;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 1.5rem;
+            bottom: 0;
+        }
+    }
+
+    &__content-wrapper {
+        max-height: 0;
+        margin-top: -3rem;
+        border: 2px solid var(--secondary);
+        border-top: none;
+        border-radius: 0 0 1.5rem 1.5rem;
+        overflow: hidden;
+        opacity: 0;
+    }
+
+    &__content {
+        margin: 1rem 0;
+    }
+
+    &__details[data-state="open"] & {
+        &__title {
+            border-radius: 1.5rem 1.5rem 0 0;
+
+            svg {
+                transform: rotate(180deg);
+            }
+        }
+
+        &__content-wrapper {
+            max-height: 900px;
+            padding: 1rem 2.5rem;
+            margin-top: 0;
+            opacity: 1;
+        }
+    }
+}

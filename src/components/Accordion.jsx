@@ -12,7 +12,7 @@ export function Accordion(props) {
 
             childAccordions.forEach(accordion => {
                 console.log("accordion: ", accordion);
-                if (accordion.dataset.id == id) {
+                if (accordion.dataset.id === id) {
                     accordion.dataset.state = 'open';
                 } else {
                     accordion.dataset.state = 'close';

@@ -42,7 +42,7 @@ body {
         font-size: 1rem;
         font-weight: normal;
         font-family: 'Darker Grotesque', sans-serif;
-        margin-bottom: 0.8rem;
+        display: block;
     }
     
     &--title {
@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Italianno', cursive;
     line-height: 1;
     margin: 0;
+
+    .type--pretitle {
+        margin: 1rem 0;
+    }
 }
 
 h1 {
@@ -66,11 +70,15 @@ h1 {
 
 h2 {
     font-size: 5rem;
+    .type--pretitle {
+        margin: 1rem 0;
+    }
 }
 
 h3 {
     font-size: 4rem;
     color: var(--primary);
+    font-family: "Darker Grotesque", sans-serif;
 }
 
 h4 {

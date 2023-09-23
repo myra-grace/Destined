@@ -1,0 +1,11 @@
+.sessions {
+    &__title.standard-padding, &__description {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .dropdown__details {
+        padding-top: 72px;
+        margin-top: -72px;
+    }
+}

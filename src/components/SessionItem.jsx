@@ -3,6 +3,7 @@ import '../styles/components/session-item.scss';
 
 export function SessionItem(props) {
     const { time, facilitator, title, slotFill, link } = props;
+    const htmlId = title?.replace(/([a-z])([A-Z])/g, "$1-$2").replace(/[\s_]+/g, '-').replace('-&-', '-').toLowerCase();
     const calculatedFill = "calc(3rem * " + slotFill + ")";
 
     return (

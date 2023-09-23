@@ -1,9 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import { MainNav } from "./components/MainNav";
+import { Header } from "./components/Header";
 import { Home } from './pages/Home';
+import { Music } from './pages/Music';
 import { Sessions } from './pages/Sessions';
 import { Facilitators } from './pages/Facilitators';
-import { FacilitatorList } from './pages/FacilitatorList';
+import { Portal } from './pages/Portal';
 import { Landing } from './pages/Landing';
 import { Footer } from "./components/Footer";
 import { UiKit } from './pages/uiKit';
@@ -18,13 +19,14 @@ import './styles/buttons.scss';
 function App() {
   return (
     <>
-      <MainNav />
+      <Header />
 
       <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Home />}/>
+        <Route path="/music" element={<Music />}/>
         <Route path="/sessions" element={<Sessions />}/>
-        <Route path="/facilitators" element={<FacilitatorList />}/>
-        <Route path="/facilitators/:id" element={<Facilitators />}/>
+        <Route path="/portal" element={<Portal />}/>
+        <Route path="/portal/:id" element={<Facilitators />}/>
         <Route path="/ui-kit" element={<UiKit />}/>
         <Route path="/landing" element={<Landing />}/>
       </Routes>
