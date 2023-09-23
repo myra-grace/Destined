@@ -42,7 +42,7 @@
                     "title": "Understanding Myself & Others",
                     "facilitator": "Myra Grace",
                     "description": "Understanding myself & others - personality test & life builder",
-                    "task": "Lecture - Understanding myself & others",
+                    "task": "Lecture & workshop - Understanding myself & others",
                     "session": true
                 }
             ],
@@ -139,7 +139,7 @@
                     "time": "18h30",
                     "title": "Destined Kick-off",
                     "facilitator": "Marc Vicuna",
-                    "description": "Vesper Kick-off: Destined. God has a plan for your life, even before you were born.",
+                    "description": "Vesper Kick-off: Destined 2023. God has a plan for your life, even before you were born.",
                     "task": "Prepare a sermonette about how God has a plan for each one of us. And ultimately, we're included in the plan of salvation; in that our destination is by his side in heaven.",
                     "session": true
                 }
@@ -228,7 +228,7 @@
                     "time": "12h00 to 13h00",
                     "title": "My Body is a Temple",
                     "facilitator": "Guido Clement",
-                    "description": "My body is a temple (part 1). Health & Wellness: build a lifestyle (write up schedules & establish a routine) Practical heavy. Talk about sticking to it.",
+                    "description": "My body is a temple (part 1). Health & Wellness: build a lifestyle (write up schedules & establish a routine) Practical heavy.",
                     "task": "Prepare a short lecture on this topic. It doesn't need to be any longer than 15 minutes. The activity of lifestyle building will take most of the time.",
                     "session": true
                 }
@@ -315,7 +315,7 @@
             "sunday": [
                 {
                     "time": "17h00 to 20h00",
-                    "title": "Cooking class & BBQ",
+                    "title": "Cooking Class & BBQ",
                     "facilitator": "Pia Marie & Joseph Daniel",
                     "description": "Cooking class & BBQ",
                     "task": "Prepate a short cooking class or lecture and facilitate the BBQ",
@@ -337,7 +337,7 @@
             "sunday": [
                 {
                     "time": "17h00 to 20h00",
-                    "title": "Cooking class & BBQ",
+                    "title": "Cooking Class & BBQ",
                     "facilitator": "Pia Marie & Joseph Daniel",
                     "description": "Cooking class & BBQ",
                     "task": "Prepate a short cooking class or lecture and facilitate the BBQ",
@@ -377,7 +377,7 @@
         "name": "Cybill Lorraine",
         "role": "Devotional facilitator",
         "responsibilities": {
-            "sunday": [
+            "monday": [
                 {
                     "time": "08h30",
                     "title": "Morning Devotional 3",
