@@ -348,5 +348,26 @@
                 "Coordinate transportation & storage of food"
             ]
         }
+    },
+    {
+        "id": "cherlynn",
+        "name": "Cherlynn De Asis",
+        "role": "Designer & Devotional facilitator",
+        "responsibilities": {
+            "sunday": [
+                {
+                    "time": "8h30",
+                    "title": "Morning Devotional 2",
+                    "facilitator": "Cherlynn De Asis",
+                    "description": "A Stellar Character - Morning Devotional 2",
+                    "task": "Read the morning devotional",
+                    "session": true
+                }
+            ],
+            "general": [
+                "Design the poster, invitations, and tickets",
+                "Coordinate transportation & storage of food"
+            ]
+        }
     }
 ]
