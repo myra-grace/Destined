@@ -6,12 +6,13 @@ export function IconWithText(props) {
     return (
         <div className='icon-with-text__wrapper'>
             Icon with text card component here
-            <p>Title</p>
-            <a>
+            <p>Cottage</p>
+            <a href="https://maps.app.goo.gl/y2jXJWA9Q5gL7y9u7">
                 {icon}
+                
             </a>
             
-            <p>Address</p>
+            <p>301 Rue de la Montagne, Les Laurentides, QC J0T 1H0</p>
         </div>
     )
 }

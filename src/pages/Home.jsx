@@ -41,7 +41,8 @@ export function Home() {
                 Icons w/ text component in here
                 <IconWithText title="Cottage"
                  link="" 
-                 icon={<FontAwesomeIcon icon={ faHouseChimneyWindow }/>} address="1234 example" />
+                 icon={<FontAwesomeIcon icon={ faHouseChimneyWindow }/>} 
+                 address="" />
             </div>
         </>
     )
