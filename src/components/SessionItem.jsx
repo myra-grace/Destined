@@ -9,7 +9,7 @@ export function SessionItem(props) {
     return (
         <div className='session-item__wrapper' style={ slotFill ? { height: calculatedFill } : null }>
             { link ? 
-                <Link className='session-item__link link link--hover-underline' to={ link }>
+                <Link className='session-item__link link link--hover-underline' to={ '/sessions#' + htmlId }>
                     <span aria-label='time' className='hide'>{ time }</span>
                     <span aria-label='facilitator'>{ facilitator }</span>
                     <h2>{ title }</h2>

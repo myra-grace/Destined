@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 export function Dropdown(props) {
-    const { id, title, time, facilitator, content, open, parent } = props;
+    const { id, title, time, facilitator, content, details, open, parent } = props;
     const [ expand, setExpand ] = useState(open);
     const htmlId = title.replace(/([a-z])([A-Z])/g, "$1-$2").replace(/[\s_]+/g, '-').replace('-&-', '-').toLowerCase();
     
@@ -33,6 +33,12 @@ export function Dropdown(props) {
                 <div className='dropdown__content'>
                     { content }
                 </div>
+                { details ?
+                    <div className='dropdown__content-details'>
+                        <h4>More Details</h4>
+                        { details }
+                    </div>
+                : null }
             </div>
         </div>
     );

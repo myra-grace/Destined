@@ -63,7 +63,7 @@ export function Facilitators() {
                 <>
                     <h3 className="standard-padding"><span className="type--pretitle">Kick-off</span>Friday</h3>
                     {fridaySessions.map((item, index) => (
-                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} details={item.task} open={index === 0 ? true : false}/>
                     ))}
                 </>
             : null}
@@ -72,7 +72,7 @@ export function Facilitators() {
                 <>
                     <h3 className="standard-padding standard-margin-top"><span className="type--pretitle">Getting Oriented</span>Saturday</h3>
                     {saturdaySessions.map((item, index) => (
-                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} details={item.task} open={index === 0 ? true : false}/>
                     ))}
                 </>
             : null}
@@ -81,7 +81,7 @@ export function Facilitators() {
                 <>
                     <h3 className="standard-padding standard-margin-top"><span className="type--pretitle">Myself in the Community</span>Sunday</h3>
                     {sundaySessions.map((item, index) => (
-                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} details={item.task} open={index === 0 ? true : false}/>
                     ))}
                 </>
             : null}
@@ -90,7 +90,7 @@ export function Facilitators() {
                 <>
                     <h3 className="standard-padding standard-margin-top"><span className="type--pretitle">Practical Measures</span>Monday</h3>
                     {mondaySessions.map((item, index) => (
-                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} details={item.task} open={index === 0 ? true : false}/>
                     ))}
                 </>
             : null}
