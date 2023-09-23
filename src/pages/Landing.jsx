@@ -47,7 +47,13 @@ export function Landing() {
                 <p>Montreal Filipino SDA church: 590 Fortune St, Montreal, Quebec H3K 2R6</p>
 
                 <div className='standard-margin-top'>
-                    embedded map code here
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.606413838916!2d-73.5581363!3d45.477731899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a823331a71b%3A0xd35b07b0dffb6bb7!2sMontreal%20Filipino%20Seventh-day%20Adventist%20Church!5e0!3m2!1sen!2sca!4v1695009217405!5m2!1sen!2sca" 
+                    width="600" 
+                    height="450" 
+                    style={{ border:"0" }} 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
