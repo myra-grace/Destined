@@ -66,8 +66,10 @@ export function Landing() {
                     <li>Hiking attire (outdoor)</li>
                     <li>Towel</li>
                     <li>Sleeping bag</li>
+                    <li>Airbed, mat, or banig</li>
                     <li>Pillow</li>
                     <li>Toiletries</li>
+                    <li>Medication e.g. Benedryl</li>
                 </ul>
             </div>
 

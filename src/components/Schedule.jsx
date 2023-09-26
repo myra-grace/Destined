@@ -71,7 +71,7 @@ export function Schedule() {
             <SessionItem time="12:30pm to 1:30pm" title="Packup time!" slotFill={ 2 }/>
             <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
             <SessionItem time="2:30pm to 6:00pm" title="Hike" slotFill={ 7 } link={true}/>
-            <SessionItem time="6:00pm to 7:00pm" title="Dinner" slotFill={ 2 }/>
+            <SessionItem time="6:00pm to 7:00pm" title="Picnic Dinner" slotFill={ 2 }/>
             <SessionItem time="7:00pm to 9:00pm" title="Convoy travel" slotFill={ 4 } link={true}/>
         </>
     ;

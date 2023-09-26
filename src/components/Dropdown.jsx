@@ -36,7 +36,7 @@ export function Dropdown(props) {
                 { details ?
                     <div className='dropdown__content-details'>
                         <h4>More Details</h4>
-                        { details }
+                        <div dangerouslySetInnerHTML={{ __html: details }}></div>
                     </div>
                 : null }
             </div>

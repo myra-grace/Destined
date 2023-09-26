@@ -16,7 +16,7 @@ export function Portal() {
 
     return (
         <div className='container standard-padding'>
-            <h1>Facilitators list</h1>
+            <h1>Participant portal</h1>
             <ul>
                 {
                     sortedParticipantsArray.map(item => (

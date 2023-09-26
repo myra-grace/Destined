@@ -66,7 +66,7 @@
                     "time": "14h30 to 18h00",
                     "title": "Hiking",
                     "description": "Sentier Montagne-Verte: 3050 Chem. du Lac Baptiste, Labelle, QC J0T 1H0. We will travel together to the hiking spot. Ride in the car you came in.",
-                    "task": "Get everyone to the hiking spot in convoy.",
+                    "task": "Get everyone to the hiking spot in convoy. Make sure all know we are not returning to the chalet.",
                     "session": true
                 },
                 {
@@ -94,14 +94,14 @@
                     "title": "Butterfly Effect",
                     "facilitator": "Marc Lovem",
                     "description": "What should I offer to society, and what does society offer me?",
-                    "task": "Prepare a sermon for the Saturday service. There will be music, scripture reading, and some other activities. Your sermon doesn't have to be any longer than 20mins.",
+                    "task": "Prepare a sermon for the Saturday service. There will be music, scripture reading, and some other activities. Your sermon doesn't need to be any longer than 20mins.</br></br> Send the verse for scripture reading to Myra (presider).",
                     "session": true
                 }
             ],
             "general": [
                 "Oversee event",
                 "contact special speakers",
-                "men's superintendent"
+                "gentlemen's superintendent"
             ]
         }
     },
@@ -132,7 +132,7 @@
             ],
             "general": [
                 "Manage everything location for the event",
-                "women's superintendent"
+                "ladies' superintendent"
             ]
         }
     },
@@ -208,7 +208,7 @@
                     "title": "Evening Devotional 2",
                     "facilitator": "Beverley Kate",
                     "description": "Being and joining uplifting company. Propelling each other forward.",
-                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes. </br></br> You can find reference in the <a class='link' href='https://m.egwwritings.org/en/book/102.1040/toc'>EGW devotional Sons and Daughters</a>: June 3-5.",
                     "session": true
                 }
             ],
@@ -222,6 +222,22 @@
         "name": "Guido Clement",
         "role": "Health & Safety Coordinator, and Workshop Facilitator",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "21h00",
+                    "title": "Safe arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "It will be dark upon arrival. You will need to setup flood lights and direct cars to safe parking one by one.",
+                    "session": false
+                },
+                {
+                    "time": "21h00",
+                    "title": "Set up campsite upon arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "Set up the tents according to how many we need.",
+                    "session": false
+                }
+            ],
             "sunday": [
                 {
                     "time": "12h00 to 13h00",
@@ -230,6 +246,15 @@
                     "description": "My body is a temple (part 1). Health & Wellness: build the dream lifestyle (write up schedules & establish routine). A practical heavy workshop.",
                     "task": "Prepare a short lecture on this topic. It doesn't need to be any longer than 15 minutes. The activity of lifestyle building will take most of the time.",
                     "session": true
+                }
+            ],
+            "monday": [
+                {
+                    "time": "12h30",
+                    "title": "Pack campsite up",
+                    "facilitator": "Health & Safety team",
+                    "description": "Pack up the campsite and kits.",
+                    "session": false
                 }
             ],
             "general": [
@@ -247,10 +272,13 @@
                     "time": "14h30 to 15h30",
                     "title": "Effective Decision Making",
                     "facilitator": "Pastor Bon",
-                    "description": "How do I know what's God's will? Tips and steps to effective decision making.",
+                    "description": "How do I know what God's will is? Tips and steps to effective decision making.",
                     "task": "Introduce yourself in relation to what you are presenting, then present a lecture and facilitate an activity/discussion points on this topic. Emphasize on making decisions based on God's will and how to know His will.",
                     "session": true
                 }
+            ],
+            "general": [
+                "Gentlemens's superintendent for Sunday night to Monday morning"
             ]
         }
     },
@@ -273,12 +301,37 @@
     },
     {
         "id": "lance-kelly",
-        "name": "Lance Kelly",
+        "name": "Lance Kelley",
         "role": "Fitness Facilitator and Health & Safety Coordinator",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "21h00",
+                    "title": "Safe arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "It will be dark upon arrival. You will need to setup flood lights and direct cars to safe parking one by one.",
+                    "session": false
+                },
+                {
+                    "time": "21h00",
+                    "title": "Set up campsite upon arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "Set up the tents according to how many we need.",
+                    "session": false
+                }
+            ],
+            "monday": [
+                {
+                    "time": "12h30",
+                    "title": "Pack campsite up",
+                    "facilitator": "Health & Safety team",
+                    "description": "Pack up the campsite and kits.",
+                    "session": false
+                }
+            ],
             "general": [
-                "Short fitness routine every morning at 8am",
-                "Assess for health & safety of guests"
+                "Short fitness routine every morning at 08h30",
+                "assess for health & safety of guests"
             ]
         }
     },
@@ -287,6 +340,31 @@
         "name": "Jan Chester",
         "role": "Tools Lead, Health & Safety Coordinator, and Website Associate",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "21h00",
+                    "title": "Safe arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "It will be dark upon arrival. You will need to setup flood lights and direct cars to safe parking one by one.",
+                    "session": false
+                },
+                {
+                    "time": "21h00",
+                    "title": "Set up campsite upon arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "Set up the tents according to how many we need.",
+                    "session": false
+                }
+            ],
+            "monday": [
+                {
+                    "time": "12h30",
+                    "title": "Pack campsite up",
+                    "facilitator": "Health & Safety team",
+                    "description": "Pack up the campsite and kits.",
+                    "session": false
+                }
+            ],
             "general": [
                 "Prepare tool-kit for the event",
                 "Mr. do-it-all for the event",
@@ -300,6 +378,31 @@
         "name": "Ralf Suertegosa",
         "role": "Camping Coordinator, and Health & Safety Coordinator",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "21h00",
+                    "title": "Safe arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "It will be dark upon arrival. You will need to setup flood lights and direct cars to safe parking one by one.",
+                    "session": false
+                },
+                {
+                    "time": "21h00",
+                    "title": "Set up campsite upon arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "Set up the tents according to how many we need.",
+                    "session": false
+                }
+            ],
+            "monday": [
+                {
+                    "time": "12h30",
+                    "title": "Pack campsite up",
+                    "facilitator": "Health & Safety team",
+                    "description": "Pack up the campsite and kits.",
+                    "session": false
+                }
+            ],
             "general": [
                 "Prepare camping-kit for the event",
                 "coordinate with the other Health & Safety members"
@@ -317,7 +420,7 @@
                     "title": "Cooking Class & BBQ",
                     "facilitator": "Pia Marie & Joseph Daniel",
                     "description": "Cooking class & BBQ",
-                    "task": "Prepate a short cooking class or lecture and facilitate the BBQ",
+                    "task": "Prepare a short cooking class or lecture and facilitate the BBQ",
                     "session": true
                 }
             ],
@@ -339,7 +442,7 @@
                     "title": "Cooking Class & BBQ",
                     "facilitator": "Pia Marie & Joseph Daniel",
                     "description": "Cooking class & BBQ",
-                    "task": "Prepate a short cooking class or lecture and facilitate the BBQ",
+                    "task": "Prepare a short cooking class or lecture and facilitate the BBQ",
                     "session": true
                 }
             ],
@@ -361,7 +464,7 @@
                     "title": "Morning Devotional 3",
                     "facilitator": "Cherlynn De Asis",
                     "description": "We are the Salt!: Excellence, diligence, reliability, and effectiveness.",
-                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a class='link' href='https://m.egwwritings.org/en/book/102.1040#1040'>EGW devotional Sons and Daughters, May 27</a>.",
                     "session": true
                 }
             ],
@@ -382,7 +485,7 @@
                     "title": "Morning Devotional 2",
                     "facilitator": "Cybill Lorraine",
                     "description": "A Stellar Character - Morning Devotional 2. There's a trove of blessings in developing an outstanding and robust character.",
-                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a class='link' href='https://m.egwwritings.org/en/book/102.1049#1049'>EGW devotional Sons and Daughters, May 28</a>.",
                     "session": true
                 }
             ]
