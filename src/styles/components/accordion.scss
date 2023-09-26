@@ -71,9 +71,6 @@
         }
 
         .session-item__wrapper {
-            &:nth-child(odd)::after {
-                background-color: var(--tertiary);
-            }
             &:nth-child(even)::after {
                 background-color: var(--primary);
             }
