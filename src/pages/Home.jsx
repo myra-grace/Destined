@@ -30,7 +30,9 @@ export function Home() {
             <Schedule />
 
             {/* Icons w/ text locations w/ pin link */}
-            <div>Icons w/ text component here</div>
+            <div>
+                {/* Icons w/ text component here */}
+            </div>
         </>
     )
 }
