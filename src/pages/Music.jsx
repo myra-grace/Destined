@@ -83,8 +83,8 @@ export function Music() {
             {/* List of songs as links to lyrics */}
             <h2 className="standard-padding standard-margin-top">Links to song lyrics</h2>
             <ol>
-                <li><a class='link link--hover-underline' href="/">Song title</a></li>
-                <li><a class='link link--hover-underline' href="/">Song title</a></li>
+                <li><a className='link link--hover-underline' href="/">Song title</a></li>
+                <li><a className='link link--hover-underline' href="/">Song title</a></li>
             </ol>
         </div>
     )

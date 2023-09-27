@@ -20,7 +20,7 @@ export function Portal() {
             <ul>
                 {
                     sortedParticipantsArray.map(item => (
-                        <li><Link className='link link--hover-underline' to={"/portal/" + encodeURI(item.id)}>{item.name}</Link></li>
+                        <li key={item.id}><Link className='link link--hover-underline' to={"/portal/" + encodeURI(item.id)}>{item.name}</Link></li>
                     ))
                 }
             </ul>
