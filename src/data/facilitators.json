@@ -60,14 +60,6 @@
                     "description": "Understanding myself & others - personality test & life builder",
                     "task": "Lecture & workshop - Understanding myself & others",
                     "session": true
-                },
-                {
-                    "time": "20h00 to 22h00",
-                    "title": "Game night & Hot chocolate / Tea time!",
-                    "link": "game-night",
-                    "description": "We're going to spend some time together playing games.",
-                    "task": "Prepare a game or games or movie",
-                    "session": true
                 }
             ],
             "monday": [
@@ -408,6 +400,17 @@
                     "session": false
                 }
             ],
+            "sunday": [
+                {
+                    "time": "20h00 to 22h00",
+                    "title": "Game night & Hot chocolate / Tea time!",
+                    "facilitator": "Jan Chester",
+                    "link": "game-night",
+                    "description": "We're going to spend some time together playing games.",
+                    "task": "Prepare a game or games to play together",
+                    "session": true
+                }
+            ],
             "monday": [
                 {
                     "time": "12h30",
@@ -567,6 +570,15 @@
                     "description": "A Stellar Character - Morning Devotional 2. There's a trove of blessings in developing an outstanding and robust character.",
                     "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1049#1049'>EGW devotional Sons and Daughters, May 28</a>.",
                     "session": true
+                }
+            ],
+            "monday": [
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Montreal",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
                 }
             ]
         }
