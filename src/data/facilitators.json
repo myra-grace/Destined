@@ -24,7 +24,7 @@
                 {
                     "time": "10h30 to 11h30",
                     "title": "Sabbath School",
-                    "facilitator": "Myra Grace",
+                    "facilitator": "Myra Salinas",
                     "description": "Sabbath school lesson",
                     "task": "Sabbath school lesson for the week or 'Where am I?' sermonette.",
                     "session": true
@@ -39,8 +39,8 @@
                 {
                     "time": "16h00 to 17h30",
                     "title": "Book binding activity",
-                    "facilitator": "Myra Grace",
-                    "description": "We're going to make our own personalized notebooks!",
+                    "facilitator": "Myra Salinas",
+                    "description": "We're going to make our own personalized notebooks! The booklets will have event information, the theme song, and space for you to take notes during all the interesting session!",
                     "task": "Have the supplies & pre-made signatures.",
                     "session": true
                 },
@@ -56,7 +56,7 @@
                 {
                     "time": "10h30 to 12h00",
                     "title": "Understanding Myself & Others",
-                    "facilitator": "Myra Grace",
+                    "facilitator": "Myra Salinas",
                     "description": "Understanding myself & others - personality test & life builder",
                     "task": "Lecture & workshop - Understanding myself & others",
                     "session": true
@@ -72,11 +72,17 @@
             ],
             "monday": [
                 {
+                    "time": "12h00 to 13h00",
+                    "title": "Resolution",
+                    "facilitator": "Myra Salinas",
+                    "description": "A concluding discussion: we'll summarize the weekend and discuss points of interest. Let us know what you liked and didn't like about the retreat so we can improve the next!",
+                    "task": "Facilitate a discussion about the retreat",
+                    "session": true
+                },
+                {
                     "time": "14h00 to 17h00",
-                    "title": "Hiking & Resolution",
-                    "link": "hike",
-                    "facilitator": "Myra Grace",
-                    "description": "Sentier Montagne-Verte: 3050 Chem. du Lac Baptiste, Labelle, QC J0T 1H0. </br></br>We will travel together to the hiking spot. Ride in the car you came in.</br></br>Atop the mountain, we will have a concluding discussion. We'll summarize the weekend and discuss points of interest. Let us know what you liked and didn't like about the retreat so we can improve the next!",
+                    "title": "Hiking",
+                    "description": "Sentier Montagne-Verte: 3050 Chem. du Lac Baptiste, Labelle, QC J0T 1H0. </br></br>We will travel together to the hiking spot. Ride in the car you came in.</br></br>",
                     "task": "Get everyone to the hiking spot in convoy. Make sure all know we are not returning to the chalet.",
                     "session": true
                 },
@@ -99,6 +105,15 @@
         "name": "Marc Lovem",
         "role": "Overseeing Elder",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Labelle",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy. You have been assigned as lead driver. You will be the first car in the convoy. Since you are leaving earlier, please park in a spot where you can easily get out.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
+                }
+            ],
             "saturday": [
                 {
                     "time": "12h00 to 13h30",
@@ -231,7 +246,7 @@
                     "title": "Evening Devotional 2",
                     "facilitator": "Beverley Kate",
                     "description": "Being and joining uplifting company. Propelling each other forward.",
-                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes. </br></br> You can find reference in the <a class='link' href='https://m.egwwritings.org/en/book/102.1040/toc'>EGW devotional Sons and Daughters</a>: June 3-5.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes. </br></br> You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1040/toc'>EGW devotional Sons and Daughters</a>: June 3-5.",
                     "session": true
                 }
             ],
@@ -341,6 +356,13 @@
                     "facilitator": "Health & Safety team",
                     "description": "Set up the tents according to how many we need.",
                     "session": false
+                },
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Labelle",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
                 }
             ],
             "monday": [
@@ -350,10 +372,17 @@
                     "facilitator": "Health & Safety team",
                     "description": "Pack up the campsite and kits.",
                     "session": false
+                },
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Montreal",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy. You have been assigned to lead the travel back home. You will be the head driver at the front of the convoy.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
                 }
             ],
             "general": [
-                "Short fitness routine every morning at 08h30",
+                "Short stretching fitness routine every morning after devotional/before breakfast",
                 "assess for health & safety of guests"
             ]
         }
@@ -440,10 +469,10 @@
             "sunday": [
                 {
                     "time": "17h00 to 19h30",
-                    "title": "Cooking Class & BBQ",
+                    "title": "Cooking Class & BBQ boodle fight",
                     "link": "bbq",
                     "facilitator": "Pia Marie & Joseph Daniel",
-                    "description": "Cooking class & BBQ",
+                    "description": "Cooking class & BBQ boodle fight",
                     "task": "Prepare a short cooking class or lecture and facilitate the BBQ",
                     "session": true
                 }
@@ -472,9 +501,9 @@
             "sunday": [
                 {
                     "time": "17h00 to 19h30",
-                    "title": "Cooking Class & BBQ",
+                    "title": "Cooking Class & BBQ boodle fight",
                     "link": "bbq",
-                    "description": "Cooking class & BBQ",
+                    "description": "Cooking class & BBQ boodle fight",
                     "task": "Prepare a short cooking class or lecture and facilitate the BBQ",
                     "session": true
                 }
@@ -506,7 +535,7 @@
                     "title": "Morning Devotional 3",
                     "facilitator": "Cherlynn De Asis",
                     "description": "We are the Salt!: Excellence, diligence, reliability, and effectiveness.",
-                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a class='link' href='https://m.egwwritings.org/en/book/102.1040#1040'>EGW devotional Sons and Daughters, May 27</a>.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1040#1040'>EGW devotional Sons and Daughters, May 27</a>.",
                     "session": true
                 }
             ],
@@ -517,17 +546,26 @@
         }
     },
     {
-        "id": "cybill-lorraine",
-        "name": "Cybill Lorraine",
+        "id": "angelie-pasamonte",
+        "name": "Angelie Pasamonte",
         "role": "Devotional facilitator",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Labelle",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
+                }
+            ],
             "sunday": [
                 {
                     "time": "09h00",
                     "title": "Morning Devotional 2",
-                    "facilitator": "Cybill Lorraine",
+                    "facilitator": "Angelie Pasamonte",
                     "description": "A Stellar Character - Morning Devotional 2. There's a trove of blessings in developing an outstanding and robust character.",
-                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a class='link' href='https://m.egwwritings.org/en/book/102.1049#1049'>EGW devotional Sons and Daughters, May 28</a>.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1049#1049'>EGW devotional Sons and Daughters, May 28</a>.",
                     "session": true
                 }
             ]
@@ -535,7 +573,7 @@
     },
     {
         "id": "jelyn-gale",
-        "name": "Jelyn Gale",
+        "name": "Jelyn Gayle",
         "role": "Music Coordinator",
         "responsibilities": {
             "saturday": [

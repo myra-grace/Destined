@@ -62,6 +62,7 @@ export function Landing() {
 
                 <ul>
                     <li>Cloths (for 3 days & 3 nights)</li>
+                    <li>House slippers</li>
                     <li>Gym-wear (indoor)</li>
                     <li>Hiking attire (outdoor)</li>
                     <li>Towel</li>
@@ -69,7 +70,7 @@ export function Landing() {
                     <li>Airbed, mat, or banig</li>
                     <li>Pillow</li>
                     <li>Toiletries</li>
-                    <li>Medication e.g. Benedryl</li>
+                    <li>Necessary medication e.g. Benedryl</li>
                 </ul>
             </div>
 

@@ -46,7 +46,7 @@ export function Schedule() {
             <SessionItem time="2:30pm to 3:30pm" facilitator="Pastor Bon" title="Effective decision-making" slotFill={ 2 } link={true}/>
             <SessionItem time="3:30pm to 4:00pm"/>
             <SessionItem time="4:00pm to 5:00pm" facilitator="Marcello Casipit" title="Interpersonal proficiency" slotFill={ 2 } link={true}/>
-            <SessionItem time="5:00pm to 7:30pm" facilitator="Pia Marie & Joseph Daniel" title="Cooking class & BBQ Dinner" slotFill={ 5 } link="bbq"/>
+            <SessionItem time="5:00pm to 7:30pm" facilitator="Pia Marie & Joseph Daniel" title="Cooking class & BBQ boodle fight" slotFill={ 5 } link="bbq"/>
             <SessionItem time="7:30pm to 8:00pm" facilitator="Marc Vicuna" title="Evening devotional 3" link={true}/>
             <SessionItem time="8:00pm to 10:00pm" title="Game night </br>&</br> Hot choco / Tea time" slotFill={ 4 } link="game-night"/>
             <SessionItem time="10:00pm to 11:00pm" slotFill={ 2 }/>
@@ -57,11 +57,11 @@ export function Schedule() {
     const mondayContent = 
         <>
             <SessionItem time="9:00am" facilitator="Cherlynn De Asis" title="Morning devotional 3" link={true}/>
-            <SessionItem time="9:30am to 10:30am" title="Gardening & diet" slotFill={ 2 } link={true}/>
-            <SessionItem time="10:30am to 11:30am" facilitator="Mellory May" title="Management - time & money" slotFill={ 2 } link={true}/>
-            <SessionItem time="11:30am to 1:00am" title="Boodle fight brunch" slotFill={ 3 } link={true}/>
+            <SessionItem time="9:30am to 10:30am" facilitator="Mellory May" title="Management - time & money" slotFill={ 2 } link={true}/>
+            <SessionItem time="10:30am to 12:00am" title="Brunch" slotFill={ 3 } link={true}/>
+            <SessionItem time="12:00am to 1:00am" facilitator="Myra Salinas" title="Resolution" slotFill={ 2 } link={true}/>
             <SessionItem time="1:00pm to 2:00pm" title="Packup & cleaning time!" slotFill={ 2 }/>
-            <SessionItem time="2:00pm to 5:00pm" title="Hike & Resolution" facilitator="Myra Salinas" slotFill={ 6 } link="hike"/>
+            <SessionItem time="2:00pm to 5:00pm" title="Hiking" slotFill={ 6 } link={true}/>
             <SessionItem time="5:00pm to 7:00pm" title="Convoy travel to Montreal" slotFill={ 4 } link={true}/>
         </>
     ;

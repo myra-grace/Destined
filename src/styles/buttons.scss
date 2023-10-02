@@ -10,6 +10,8 @@
     text-decoration: none;
     position: relative;
     overflow: hidden;
+    display: block;
+    width: max-content;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 1rem;
     transition: 0.2s;
@@ -99,14 +101,14 @@
 
         &::before {
             content: "";
-            width: 300px;
+            width: 400px;
             height: 1px;
             display: block;
             transition: 0.2s;
             background-color: currentcolor;
             position: absolute;
             bottom: 0;
-            right: 300px;
+            right: 100%;
         }
 
         &:not([disabled]):hover, &.hovered {
