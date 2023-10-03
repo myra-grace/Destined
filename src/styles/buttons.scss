@@ -1,4 +1,6 @@
 @use './colors.scss' as *;
+@use './layout.scss' as *;
+@use './helpers.scss' as *;
 
 @mixin standard-padding-small {
     padding: 0.3rem 1.3rem;
@@ -68,6 +70,7 @@
     color: inherit;
     height: max-content;
     text-align: center;
+    text-underline-offset: 3px;
 
     &[data-title]::after {
         content: attr(data-title);
@@ -91,33 +94,35 @@
     }
     
     &--hover-underline {
-        text-decoration: none;
-        position: relative;
-        overflow: hidden;
-
-        &:not(.type--accent) {
-            font-family: 'Darker Grotesque', sans-serif;
-        }
-
-        &::before {
-            content: "";
-            width: 400px;
-            height: 1px;
-            display: block;
-            transition: 0.2s;
-            background-color: currentcolor;
-            position: absolute;
-            bottom: 0;
-            right: 100%;
-        }
-
-        &:not([disabled]):hover, &.hovered {
+        @media screen and (min-width: $desktop) {
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+    
+            &:not(.type--accent) {
+                font-family: 'Darker Grotesque', sans-serif;
+            }
+    
             &::before {
+                content: "";
+                width: 400%;
+                height: 1px;
+                display: block;
+                transition: 0.2s;
+                background: linear-gradient(to right, currentColor, currentColor, var(--primary), var(--primary));
+                position: absolute;
+                bottom: 0;
                 right: 0;
             }
-
-            &[data-title]:hover {
-                font-weight: normal;
+    
+            &:not([disabled]):hover, &.hovered {
+                &::before {
+                    right: -200%;
+                }
+    
+                &[data-title]:hover {
+                    font-weight: normal;
+                }
             }
         }
     }

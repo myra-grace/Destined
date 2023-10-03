@@ -29,7 +29,7 @@ export function Schedule() {
             <SessionItem time="4:00pm to 5:30pm" facilitator="Myra Salinas" title="Book binding activity" slotFill={ 3 } link={true}/>
             <SessionItem time="5:30pm to 6:00pm" facilitator="Beverly Kate" title="Evening devotional 2" link={true}/>
             <SessionItem time="6:00pm to 7:00pm" title="Dinner" slotFill={ 2 }/>
-            <SessionItem time="7:00pm to 10:00pm" title="Gym" slotFill={ 6 } link={true}/>
+            <SessionItem time="7:00pm to 10:00pm" title="Gym night" slotFill={ 6 } link={true}/>
             <SessionItem time="10:00pm to 10:30pm" slotFill={ 2 }/>
             <SessionItem time="10:30pm to 11:00pm" title="Lights out"/>
         </>

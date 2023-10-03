@@ -1,7 +1,12 @@
 import { Schedule } from '../components/Schedule';
+import { IconWithText } from '../components/IconWithText';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faHouseChimneyWindow } from '@fortawesome/free-solid-svg-icons';
+import { faBasketball } from '@fortawesome/free-solid-svg-icons';
+import { faPersonHiking } from '@fortawesome/free-solid-svg-icons';
 
 import '../styles/pages/home.scss';
 
@@ -30,8 +35,19 @@ export function Home() {
             <Schedule />
 
             {/* Icons w/ text locations w/ pin link */}
-            <div>
-                {/* Icons w/ text component here */}
+            <div className='icon-with-text__parent container standard-padding'>
+                <IconWithText title="Cottage"
+                 link="https://maps.app.goo.gl/y2jXJWA9Q5gL7y9u7" 
+                 icon={<FontAwesomeIcon icon={ faHouseChimneyWindow }/>} 
+                 content="301 Rue de la Montagne, Les Laurentides, QC J0T 1H0" />
+                 <IconWithText title="Gym"
+                 link="https://maps.app.goo.gl/GPRXDCVPUtotA5dS9" 
+                 icon={<FontAwesomeIcon icon={faBasketball}/>} 
+                 content="Labelle Centre Community · 29 Rue du Couvent, Labelle, QC J0T 1H0" />
+                 <IconWithText title="Hike"
+                 link="https://maps.app.goo.gl/nNvGmNjBtbaFJjHZ8" 
+                 icon={<FontAwesomeIcon icon={faPersonHiking}/>} 
+                 content="3050 Chem. du Lac Baptiste, Labelle, QC J0T 1H0, Canada" />
             </div>
         </>
     )
