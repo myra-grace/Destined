@@ -94,35 +94,33 @@
     }
     
     &--hover-underline {
-        @media screen and (min-width: $desktop) {
-            text-decoration: none;
-            position: relative;
-            overflow: hidden;
-    
-            &:not(.type--accent) {
-                font-family: 'Darker Grotesque', sans-serif;
-            }
-    
+        text-decoration: none;
+        position: relative;
+        overflow: hidden;
+
+        &:not(.type--accent) {
+            font-family: 'Darker Grotesque', sans-serif;
+        }
+
+        &::before {
+            content: "";
+            width: 400%;
+            height: 1px;
+            display: block;
+            transition: 0.2s;
+            background: linear-gradient(to right, currentColor, currentColor, var(--primary), var(--primary));
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        &:not([disabled]):hover, &.hovered {
             &::before {
-                content: "";
-                width: 400%;
-                height: 1px;
-                display: block;
-                transition: 0.2s;
-                background: linear-gradient(to right, currentColor, currentColor, var(--primary), var(--primary));
-                position: absolute;
-                bottom: 0;
-                right: 0;
+                right: -200%;
             }
-    
-            &:not([disabled]):hover, &.hovered {
-                &::before {
-                    right: -200%;
-                }
-    
-                &[data-title]:hover {
-                    font-weight: normal;
-                }
+
+            &[data-title]:hover {
+                font-weight: normal;
             }
         }
     }
