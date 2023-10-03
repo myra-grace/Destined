@@ -29,10 +29,10 @@
                     "session": true
                 },
                 {
-                    "time": "19h00",
-                    "title": "Gym",
-                    "description": "Get everyone to the gym in Labelle",
-                    "task": "Get everyone to the gym",
+                    "time": "19h00 to 22h00",
+                    "title": "Gym night",
+                    "description": "Labelle Centre Community: 29 Rue du Couvent, Labelle, QC J0T 1H0.</br></br>We will travel together to the local gym in convoy. Ride in the car you came in.",
+                    "task": "Get everyone to the gym in convoy. Bring sports equipment.",
                     "session": true
                 }
             ],

@@ -33,7 +33,7 @@ export function Schedule() {
             <SessionItem time="5:00pm to 5:30pm"/>
             <SessionItem time="5:30pm to 6:00pm" facilitator="Beverly Kate" title="Evening devotional 2" link={true}/>
             <SessionItem time="6:00pm to 7:00pm" title="Dinner" slotFill={ 2 }/>
-            <SessionItem time="7:00pm to 10:00pm" title="Gym" slotFill={ 6 } link={true}/>
+            <SessionItem time="7:00pm to 10:00pm" title="Gym night" slotFill={ 6 } link={true}/>
             <SessionItem time="10:00pm to 10:30pm" slotFill={ 2 }/>
             <SessionItem time="10:30pm to 11:00pm" title="Lights out"/>
         </>
@@ -41,9 +41,8 @@ export function Schedule() {
 
     const sundayContent = 
         <>
-            <SessionItem time="8:00am" facilitator="Lance Kelly" title="Morning fitness"/>
-            <SessionItem time="8:30am" facilitator="Cherlynn De Asis" title="Morning devotional 2" link={true}/>
-            <SessionItem time="9:00am to 10:00am" title="Breakfast" slotFill={ 2 }/>
+            <SessionItem time="9:00am" facilitator="Angelie Pasamonte" title="Morning devotional 2" link={true}/>
+            <SessionItem time="9:30am to 10:30am" title="Breakfast" slotFill={ 2 }/>
             <SessionItem time="10:00am to 11:30am" facilitator="Myra Salinas" title="Understanding myself & others" slotFill={ 3 } link={true}/>
             <SessionItem time="11:30am to 12:00pm"/>
             <SessionItem time="12:00am to 1:00pm" facilitator="Guido Clement" title="My body is a temple" slotFill={ 2 } link={true}/>
