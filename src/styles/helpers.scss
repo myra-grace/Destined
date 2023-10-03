@@ -5,5 +5,29 @@ $widescreen: 1200px;
 $ultrawide: 1400px;
 
 .hide {
-    display: none;
+    display: none !important;
+}
+
+.hide-mobile {
+    @media screen and (max-width: $tablet) {
+        display: none !important;
+    }
+}
+
+.hide-tablet {
+    @media screen and (min-width: $tablet) and (max-width: $desktop) {
+        display: none !important;
+    }
+}
+
+.hide-desktop {
+    @media screen and (min-width: $desktop) {
+        display: none !important;
+    }
+}
+
+.hide-desktop-down {
+    @media screen and (max-width: $desktop) {
+        display: none !important;
+    }
 }
