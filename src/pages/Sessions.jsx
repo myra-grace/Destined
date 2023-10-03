@@ -59,22 +59,22 @@ export function Sessions() {
 
             <h2 className="standard-padding">Friday</h2>
             {fridaySessions.map((item, index) => (
-                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                <Dropdown key={index} title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false} link={item.link ? item.link : true}/>
             ))}
 
             <h2 className="standard-padding standard-margin-top">Saturday</h2>
             {saturdaySessions.map((item, index) => (
-                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                <Dropdown key={index} title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false} link={item.link ? item.link : true}/>
             ))}
 
             <h2 className="standard-padding standard-margin-top">Sunday</h2>
             {sundaySessions.map((item, index) => (
-                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                <Dropdown key={index} title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false} link={item.link ? item.link : true}/>
             ))}
 
             <h2 className="standard-padding standard-margin-top">Monday</h2>
             {mondaySessions.map((item, index) => (
-                <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                <Dropdown key={index} title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false} link={item.link ? item.link : true}/>
             ))}
         </div>
     )

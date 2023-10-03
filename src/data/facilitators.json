@@ -9,23 +9,39 @@
                     "time": "18h00",
                     "title": "Vesper",
                     "description": "Themed \"Destined,\" this youth retreat is aimed to help you discover your destiny. From a Christ centered approach, we'll discuss topics of: life direction, character building, and practical living. Participate in engaging lectures, sermonettes, and workshops. Also, enjoy physical and hands-on activities such as: hiking, cooking, and wellness pursuits.",
-                    "task": "Vesper",
+                    "task": "Preside the event",
                     "session": false
                 },
                 {
                     "time": "19h00",
-                    "title": "Convoy",
-                    "task": "Convoy",
-                    "description": "Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "title": "Convoy travel to Labelle",
+                    "task": "Make sure all those who are joining the convoy are present all along the way. Each car will have a walkie talkie, provided by coms team.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
                     "session": true
                 }
             ],
             "saturday": [
                 {
+                    "time": "10h30 to 11h30",
+                    "title": "Sabbath School",
+                    "facilitator": "Myra Salinas",
+                    "description": "Sabbath school lesson",
+                    "task": "Sabbath school lesson for the week or 'Where am I?' sermonette.",
+                    "session": true
+                },
+                {
                     "time": "14h30",
                     "title": "Nature Walk",
-                    "description": "Take everyone for a walk in the woods.",
-                    "task": "Take everyone for a nature walk",
+                    "description": "Short nature walk along the trail in the woods behind the chalet.",
+                    "task": "Take everyone for a walk in the woods behind the chalet. Make groups and set a head and a tail.",
+                    "session": true
+                },
+                {
+                    "time": "16h00 to 17h30",
+                    "title": "Book binding activity",
+                    "facilitator": "Myra Salinas",
+                    "description": "We're going to make our own personalized notebooks! The booklets will have event information, the theme song, and space for you to take notes during all the interesting session!",
+                    "task": "Have the supplies & pre-made signatures.",
                     "session": true
                 },
                 {
@@ -38,35 +54,34 @@
             ],
             "sunday": [
                 {
-                    "time": "10h00 to 11h00",
+                    "time": "10h30 to 12h00",
                     "title": "Understanding Myself & Others",
-                    "facilitator": "Myra Grace",
+                    "facilitator": "Myra Salinas",
                     "description": "Understanding myself & others - personality test & life builder",
-                    "task": "Lecture - Understanding myself & others",
+                    "task": "Lecture & workshop - Understanding myself & others",
                     "session": true
                 }
             ],
             "monday": [
                 {
-                    "time": "11h30 to 12h30",
+                    "time": "12h00 to 13h00",
                     "title": "Resolution",
-                    "facilitator": "Myra Grace",
-                    "description": "Concluding discussion.",
-                    "task": "Facilitate - Resolution",
+                    "facilitator": "Myra Salinas",
+                    "description": "A concluding discussion: we'll summarize the weekend and discuss points of interest. Let us know what you liked and didn't like about the retreat so we can improve the next!",
+                    "task": "Facilitate a discussion about the retreat",
                     "session": true
                 },
                 {
-                    "time": "14h30 to 18h00",
+                    "time": "14h00 to 17h00",
                     "title": "Hiking",
-                    "description": "Hiking address",
-                    "task": "Facilitate - Resolution",
+                    "description": "Sentier Montagne-Verte: 3050 Chem. du Lac Baptiste, Labelle, QC J0T 1H0. </br></br>We will travel together to the hiking spot. Ride in the car you came in.</br></br>",
+                    "task": "Get everyone to the hiking spot in convoy. Make sure all know we are not returning to the chalet.",
                     "session": true
                 },
                 {
-                    "time": "19h00",
-                    "title": "Convoy",
-                    "task": "Convoy",
-                    "description": "Travelling to Montreal in convoy. Leaving at 7pm. Expected arrival: 9pm.",
+                    "time": "17h00",
+                    "title": "Convoy travel to Montreal",
+                    "description": "Travelling to Montreal in convoy. Leaving at 5pm. Expected arrival: 7pm.",
                     "session": true
                 }
             ],
@@ -82,20 +97,29 @@
         "name": "Marc Lovem",
         "role": "Overseeing Elder",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Labelle",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy. You have been assigned as lead driver. You will be the first car in the convoy. Since you are leaving earlier, please park in a spot where you can easily get out.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
+                }
+            ],
             "saturday": [
                 {
-                    "time": "11h30 to 13h00",
+                    "time": "12h00 to 13h30",
                     "title": "Butterfly Effect",
                     "facilitator": "Marc Lovem",
                     "description": "What should I offer to society, and what does society offer me?",
-                    "task": "Sermonette",
+                    "task": "Prepare a sermon for the Saturday service. There will be music, scripture reading, and some other activities. Your sermon doesn't need to be any longer than 20mins.</br></br> Send the verse for scripture reading to Myra (presider).",
                     "session": true
                 }
             ],
             "general": [
                 "Oversee event",
                 "contact special speakers",
-                "men's superintendent"
+                "gentlemen's superintendent"
             ]
         }
     },
@@ -107,26 +131,27 @@
             "saturday": [
                 {
                     "time": "15h30 to 17h00",
-                    "title": "Ladies & Gentlemen",
+                    "title": "Ladies & Gentlemen (Ladies)",
+                    "link": "ladies-gentlemen",
                     "facilitator": "Mellory May",
-                    "description": "How to own womanhood / manhood",
-                    "task": "Workshop",
+                    "description": "How to own womanhood: What it means to be a woman, and how to gacefully optimize womanhood.",
+                    "task": "Prepare a lecture & workshop about 'owning womanhood.'",
                     "session": true
                 }
             ],
             "monday": [
                 {
-                    "time": "10h00 to 11h00",
+                    "time": "10h30 to 11h30",
                     "title": "Management - Time & Money",
                     "facilitator": "Mellory May",
-                    "description": "How to manage your time & money",
-                    "task": "Workshop",
+                    "description": "How to manage your time & money. Practical guides to being effective and efficient with your money and time.",
+                    "task": "Prepare a lecture & workshop about managing time and managing money.",
                     "session": true
                 }
             ],
             "general": [
                 "Manage everything location for the event",
-                "women's superintendent"
+                "ladies' superintendent"
             ]
         }
     },
@@ -137,21 +162,21 @@
         "responsibilities": {
             "friday": [
                 {
-                    "time": "18h30",
+                    "time": "18h00",
                     "title": "Destined Kick-off",
                     "facilitator": "Marc Vicuna",
-                    "description": "Vesper Kick-off",
-                    "task": "Sermonette",
+                    "description": "Vesper Kick-off: Destined 2023. God has a plan for your life, even before you were born.",
+                    "task": "Prepare a sermonette about how God has a plan for each one of us. And ultimately, we're included in the plan of salvation; in that our destination is by his side in heaven.",
                     "session": true
                 }
             ],
             "sunday": [
                 {
-                    "time": "20h30",
+                    "time": "19h30",
                     "title": "Evening Devotional 3",
                     "facilitator": "Marc Vicuna",
-                    "description": "My body is a temple (part 2)",
-                    "task": "Short devotional",
+                    "description": "My body is a temple (part 2). Why is my body is a temple, and why should I treat it as such?",
+                    "task": "Short devotional about how our body is a temple, and that we ought to present ourselves a living sacrifice. Touch more on the biblical theory behind this idea, and why it's important.",
                     "session": true
                 }
             ]
@@ -164,11 +189,11 @@
         "responsibilities": {
             "saturday": [
                 {
-                    "time": "08h30",
+                    "time": "09h00",
                     "title": "Morning Devotional 1",
                     "facilitator": "Marsjey Hymn",
-                    "description": "My body is a temple (part 2)",
-                    "task": "Short devotional",
+                    "description": "Salvation is personal, life experience is unique, and we are all at different stages! Invite Jesus to be by your side.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.",
                     "session": true
                 }
             ]
@@ -181,19 +206,22 @@
         "responsibilities": {
             "saturday": [
                 {
-                    "time": "10h00",
-                    "title": "Where am I?",
-                    "facilitator": "Unknown",
-                    "description": "Where am I in life? Self improvement responsibility & Family responsibility",
-                    "task": "Workshop",
-                    "session": true
-                },
-                {
                     "time": "15h30 to 17h00",
-                    "title": "Ladies & Gentlemen",
+                    "title": "Ladies & Gentlemen (Gentlemen)",
+                    "link": "ladies-gentlemen",
                     "facilitator": "Unknown",
-                    "description": "How to own womanhood / manhood",
-                    "task": "Workshop",
+                    "description": "How to own manhood: What it means to be a man, and how to valiantly optimize manhood.",
+                    "task": "Prepare a lecture & workshop about 'owning manhood.'",
+                    "session": true
+                }
+            ],
+            "monday": [
+                {
+                    "time": "09h30 to 10h30",
+                    "title": "Gardening & Diet",
+                    "facilitator": "Unknown",
+                    "description": "Learn the basics of gardening & how to maintain a healthy diet.",
+                    "task": "Prepare a lecture &/ workshop about gardening and diet.",
                     "session": true
                 }
             ]
@@ -202,36 +230,61 @@
     {
         "id": "beverley-kate",
         "name": "Beverley Kate",
-        "role": "Devotional Facilitator",
+        "role": "Carpool Coordinator & Devotional Facilitator",
         "responsibilities": {
             "saturday": [
                 {
                     "time": "17h30",
                     "title": "Evening Devotional 2",
                     "facilitator": "Beverley Kate",
-                    "description": "What should I offer to society, and what does society offer me?",
-                    "task": "Short devotional",
+                    "description": "Being and joining uplifting company. Propelling each other forward.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes. </br></br> You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1040/toc'>EGW devotional Sons and Daughters</a>: June 3-5.",
                     "session": true
                 }
             ],
             "general": [
-                "Oversee event"
+                "Coordinate carpool throughout the event"
             ]
         }
     },
     {
         "id": "guido-clement",
         "name": "Guido Clement",
-        "role": "Workshop Facilitator and Health & Safety Coordinator",
+        "role": "Health & Safety Coordinator, and Workshop Facilitator",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "21h00",
+                    "title": "Safe arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "It will be dark upon arrival. You will need to setup flood lights and direct cars to safe parking one by one.",
+                    "session": false
+                },
+                {
+                    "time": "21h00",
+                    "title": "Set up campsite upon arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "Set up the tents according to how many we need.",
+                    "session": false
+                }
+            ],
             "sunday": [
                 {
-                    "time": "12h00",
+                    "time": "12h30 to 13h30",
                     "title": "My Body is a Temple",
                     "facilitator": "Guido Clement",
-                    "description": "My body is a temple (part 1). Health & Wellness: build a lifestyle (write up schedules & establish a routine) Practical heavy. Talk about sticking to it.",
-                    "task": "Facilitate workshop",
+                    "description": "My body is a temple (part 1). Health & Wellness: build the dream lifestyle (write up schedules & establish routine). A practical heavy workshop.",
+                    "task": "Prepare a short lecture on this topic. It doesn't need to be any longer than 15 minutes. The activity of lifestyle building will take most of the time.",
                     "session": true
+                }
+            ],
+            "monday": [
+                {
+                    "time": "12h30",
+                    "title": "Pack campsite up",
+                    "facilitator": "Health & Safety team",
+                    "description": "Pack up the campsite and kits.",
+                    "session": false
                 }
             ],
             "general": [
@@ -246,28 +299,31 @@
         "responsibilities": {
             "sunday": [
                 {
-                    "time": "14h30",
+                    "time": "14h30 to 15h30",
                     "title": "Effective Decision Making",
                     "facilitator": "Pastor Bon",
-                    "description": "Tips and steps to effective decision making.",
-                    "task": "Facilitate workshop",
+                    "description": "How do I know what God's will is? Tips and steps to effective decision making.",
+                    "task": "Introduce yourself in relation to what you are presenting, then present a lecture and facilitate an activity/discussion points on this topic. Emphasize on making decisions based on God's will and how to know His will.",
                     "session": true
                 }
+            ],
+            "general": [
+                "Gentlemens's superintendent for Sunday night to Monday morning"
             ]
         }
     },
     {
         "id": "marcello-casipit",
         "name": "Marcello Casipit",
-        "role": "Workshop Facilitator",
+        "role": "Participating Elder & Workshop Facilitator",
         "responsibilities": {
             "sunday": [
                 {
-                    "time": "16h00",
-                    "title": "Effective Communication",
-                    "facilitator": "Unknown",
-                    "description": "How to effectively communicate",
-                    "task": "Workshop",
+                    "time": "16h00 to 17h00",
+                    "title": "Interpersonal Proficiency",
+                    "facilitator": "Marcello Casipit",
+                    "description": "How to effectively communicate with others & form long lasting connections.",
+                    "task": "Introduce yourself in relation to what you are presenting, then present a lecture and facilitate an activity/discussion points on this topic.",
                     "session": true
                 }
             ]
@@ -275,12 +331,51 @@
     },
     {
         "id": "lance-kelly",
-        "name": "Lance Kelly",
+        "name": "Lance Kelley",
         "role": "Fitness Facilitator and Health & Safety Coordinator",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "21h00",
+                    "title": "Safe arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "It will be dark upon arrival. You will need to setup flood lights and direct cars to safe parking one by one.",
+                    "session": false
+                },
+                {
+                    "time": "21h00",
+                    "title": "Set up campsite upon arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "Set up the tents according to how many we need.",
+                    "session": false
+                },
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Labelle",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
+                }
+            ],
+            "monday": [
+                {
+                    "time": "12h30",
+                    "title": "Pack campsite up",
+                    "facilitator": "Health & Safety team",
+                    "description": "Pack up the campsite and kits.",
+                    "session": false
+                },
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Montreal",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy. You have been assigned to lead the travel back home. You will be the head driver at the front of the convoy.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
+                }
+            ],
             "general": [
-                "Short fitness routine every morning at 8am",
-                "Assess for health & safety of guests"
+                "Short stretching fitness routine every morning after devotional/before breakfast",
+                "assess for health & safety of guests"
             ]
         }
     },
@@ -289,10 +384,47 @@
         "name": "Jan Chester",
         "role": "Tools Lead, Health & Safety Coordinator, and Website Associate",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "21h00",
+                    "title": "Safe arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "It will be dark upon arrival. You will need to setup flood lights and direct cars to safe parking one by one.",
+                    "session": false
+                },
+                {
+                    "time": "21h00",
+                    "title": "Set up campsite upon arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "Set up the tents according to how many we need.",
+                    "session": false
+                }
+            ],
+            "sunday": [
+                {
+                    "time": "20h00 to 22h00",
+                    "title": "Game night & Hot chocolate / Tea time!",
+                    "facilitator": "Jan Chester",
+                    "link": "game-night",
+                    "description": "We're going to spend some time together playing games.",
+                    "task": "Prepare a game or games to play together",
+                    "session": true
+                }
+            ],
+            "monday": [
+                {
+                    "time": "12h30",
+                    "title": "Pack campsite up",
+                    "facilitator": "Health & Safety team",
+                    "description": "Pack up the campsite and kits.",
+                    "session": false
+                }
+            ],
             "general": [
                 "Prepare tool-kit for the event",
                 "Mr. do-it-all for the event",
-                "Coordinate with the other Health & Safety members"
+                "coordinate with the other Health & Safety members",
+                "work on event website"
             ]
         }
     },
@@ -301,9 +433,34 @@
         "name": "Ralf Suertegosa",
         "role": "Camping Coordinator, and Health & Safety Coordinator",
         "responsibilities": {
+            "friday": [
+                {
+                    "time": "21h00",
+                    "title": "Safe arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "It will be dark upon arrival. You will need to setup flood lights and direct cars to safe parking one by one.",
+                    "session": false
+                },
+                {
+                    "time": "21h00",
+                    "title": "Set up campsite upon arrival",
+                    "facilitator": "Health & Safety team",
+                    "description": "Set up the tents according to how many we need.",
+                    "session": false
+                }
+            ],
+            "monday": [
+                {
+                    "time": "12h30",
+                    "title": "Pack campsite up",
+                    "facilitator": "Health & Safety team",
+                    "description": "Pack up the campsite and kits.",
+                    "session": false
+                }
+            ],
             "general": [
                 "Prepare camping-kit for the event",
-                "Coordinate with the other Health & Safety members"
+                "coordinate with the other Health & Safety members"
             ]
         }
     },
@@ -314,17 +471,28 @@
         "responsibilities": {
             "sunday": [
                 {
-                    "time": "17h00",
-                    "title": "Cooking class & BBQ",
+                    "time": "17h00 to 19h30",
+                    "title": "Cooking Class & BBQ boodle fight",
+                    "link": "bbq",
                     "facilitator": "Pia Marie & Joseph Daniel",
-                    "description": "Cooking class & BBQ",
-                    "task": "Facilitate cooking class workshop & BBQ",
+                    "description": "Cooking class & BBQ boodle fight",
+                    "task": "Prepare a short cooking class or lecture and facilitate the BBQ",
+                    "session": true
+                }
+            ],
+            "monday": [
+                {
+                    "time": "11h30 to 13h00",
+                    "title": "Boodle fight brunch",
+                    "description": "Filipino style boodle fight brunch",
+                    "task": "Prepare the brunch table in a boodle fight style with simple filipino cuisine.",
                     "session": true
                 }
             ],
             "general": [
                 "Prepare food for the event",
-                "Coordinate transportation & storage of food"
+                "coordinate transportation & storage of food",
+                "coordinate food & clean-up teams for the event"
             ]
         }
     },
@@ -335,17 +503,106 @@
         "responsibilities": {
             "sunday": [
                 {
-                    "time": "17h00",
-                    "title": "Cooking class & BBQ",
-                    "facilitator": "Pia Marie & Joseph Daniel",
-                    "description": "Cooking class & BBQ",
-                    "task": "Facilitate cooking class workshop & BBQ",
+                    "time": "17h00 to 19h30",
+                    "title": "Cooking Class & BBQ boodle fight",
+                    "link": "bbq",
+                    "description": "Cooking class & BBQ boodle fight",
+                    "task": "Prepare a short cooking class or lecture and facilitate the BBQ",
                     "session": true
+                }
+            ],
+            "monday": [
+                {
+                    "time": "11h30 to 13h00",
+                    "title": "Boodle fight brunch",
+                    "description": "Filipino style boodle fight brunch",
+                    "task": "Prepare the brunch table in a boodle fight style with simple filipino cuisine.",
+                    "session": false
                 }
             ],
             "general": [
                 "Prepare food for the event",
-                "Coordinate transportation & storage of food"
+                "coordinate transportation & storage of food",
+                "coordinate food & clean-up teams for the event"
+            ]
+        }
+    },
+    {
+        "id": "cherlynn",
+        "name": "Cherlynn De Asis",
+        "role": "Designer & Devotional facilitator",
+        "responsibilities": {
+            "monday": [
+                {
+                    "time": "09h00",
+                    "title": "Morning Devotional 3",
+                    "facilitator": "Cherlynn De Asis",
+                    "description": "We are the Salt!: Excellence, diligence, reliability, and effectiveness.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1040#1040'>EGW devotional Sons and Daughters, May 27</a>.",
+                    "session": true
+                }
+            ],
+            "general": [
+                "Design the poster, invitations, tickets, and guest speaker pamphlets.",
+                "Facilitate Morning devotional 2"
+            ]
+        }
+    },
+    {
+        "id": "angelie-pasamonte",
+        "name": "Angelie Pasamonte",
+        "role": "Devotional facilitator",
+        "responsibilities": {
+            "friday": [
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Labelle",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
+                }
+            ],
+            "sunday": [
+                {
+                    "time": "09h00",
+                    "title": "Morning Devotional 2",
+                    "facilitator": "Angelie Pasamonte",
+                    "description": "A Stellar Character - Morning Devotional 2. There's a trove of blessings in developing an outstanding and robust character.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1049#1049'>EGW devotional Sons and Daughters, May 28</a>.",
+                    "session": true
+                }
+            ],
+            "monday": [
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Montreal",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
+                }
+            ]
+        }
+    },
+    {
+        "id": "jelyn-gale",
+        "name": "Jelyn Gayle",
+        "role": "Music Coordinator",
+        "responsibilities": {
+            "saturday": [
+                {
+                    "time": "11h30 to 13h00",
+                    "title": "Divine service",
+                    "facilitator": "Myra-Grace",
+                    "description": "Divine service. Myra's presiding. Marc Lovem is speaking. You are doing the music.",
+                    "task": "Prepare a jam session for the service (perhaps a medley). Have some music for about 10 minutes. Then there will be scripture reading. Then more music for about 5 minutes. Then the sermon. Then more music at the end, maybe 3 songs.",
+                    "session": false
+                }
+            ],
+            "general": [
+                "Prepare jam sessions for the event",
+                "coordinate singers & musicians",
+                "coordinate short song service for vesper, and each morning and evening devotional",
+                "prepare playlists for the event (background music) not necessarily all christian; can include classical music."
             ]
         }
     }

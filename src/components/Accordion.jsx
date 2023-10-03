@@ -11,7 +11,6 @@ export function Accordion(props) {
             const childAccordions = parentElement.querySelectorAll('[data-id]');
 
             childAccordions.forEach(accordion => {
-                console.log("accordion: ", accordion);
                 if (accordion.dataset.id === id) {
                     accordion.dataset.state = 'open';
                 } else {

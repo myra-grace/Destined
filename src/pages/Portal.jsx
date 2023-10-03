@@ -16,11 +16,11 @@ export function Portal() {
 
     return (
         <div className='container standard-padding'>
-            <h1>Facilitators list</h1>
+            <h1>Participant portal</h1>
             <ul>
                 {
                     sortedParticipantsArray.map(item => (
-                        <li><Link to={"/portal/" + encodeURI(item.id)}>{item.name}</Link></li>
+                        <li key={item.id}><Link className='link link--hover-underline' to={"/portal/" + encodeURI(item.id)}>{item.name}</Link></li>
                     ))
                 }
             </ul>

@@ -5,7 +5,6 @@ import '../styles/pages/facilitators.scss'
 
 export function Facilitators() {
     const { id } = useParams();
-    const facilitatorId = decodeURI(id).match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g).map(x => x.toLowerCase()).join('-');
 
     let fridaySessions = [];
     let saturdaySessions = [];
@@ -48,7 +47,7 @@ export function Facilitators() {
 
             {userGeneralResponsibilities ? 
                 <p className="facilitators__responsibilities"><span className="facilitators__highlight">General responsibilities: </span>{userGeneralResponsibilities.map((item, index) => (
-                        <span>{item}{index !== userGeneralResponsibilities.length -1 ? ", " : null}</span>
+                        <span key={index}>{item}{index !== userGeneralResponsibilities.length -1 ? ", " : null}</span>
                     ))}
                 </p> 
             : null}
@@ -63,7 +62,7 @@ export function Facilitators() {
                 <>
                     <h3 className="standard-padding"><span className="type--pretitle">Kick-off</span>Friday</h3>
                     {fridaySessions.map((item, index) => (
-                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                        <Dropdown key={index} title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} details={item.task} open={index === 0 ? true : false}/>
                     ))}
                 </>
             : null}
@@ -72,7 +71,7 @@ export function Facilitators() {
                 <>
                     <h3 className="standard-padding standard-margin-top"><span className="type--pretitle">Getting Oriented</span>Saturday</h3>
                     {saturdaySessions.map((item, index) => (
-                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                        <Dropdown key={index} title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} details={item.task} open={index === 0 ? true : false}/>
                     ))}
                 </>
             : null}
@@ -81,7 +80,7 @@ export function Facilitators() {
                 <>
                     <h3 className="standard-padding standard-margin-top"><span className="type--pretitle">Myself in the Community</span>Sunday</h3>
                     {sundaySessions.map((item, index) => (
-                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                        <Dropdown key={index} title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} details={item.task} open={index === 0 ? true : false}/>
                     ))}
                 </>
             : null}
@@ -90,7 +89,7 @@ export function Facilitators() {
                 <>
                     <h3 className="standard-padding standard-margin-top"><span className="type--pretitle">Practical Measures</span>Monday</h3>
                     {mondaySessions.map((item, index) => (
-                        <Dropdown title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} open={index === 0 ? true : false}/>
+                        <Dropdown key={index} title={item.title} time={item.time} facilitator={item.facilitator} content={item.description} details={item.task} open={index === 0 ? true : false}/>
                     ))}
                 </>
             : null}

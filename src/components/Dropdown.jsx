@@ -4,9 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 export function Dropdown(props) {
-    const { id, title, time, facilitator, content, open, parent } = props;
+    const { id, title, time, facilitator, content, details, open, parent, link } = props;
     const [ expand, setExpand ] = useState(open);
-    const htmlId = title.replace(/([a-z])([A-Z])/g, "$1-$2").replace(/[\s_]+/g, '-').replace('-&-', '-').toLowerCase();
+    const htmlId = link === true ? title?.replace(/([a-z])([A-Z])/g, "$1-$2").replace(/[\s_]+/g, '-').replace('-&-', '-').toLowerCase() : link;
+    const hash = window.location.hash.substring(1);
     
     function toggleExpand() {
         if (parent) {
@@ -25,14 +26,26 @@ export function Dropdown(props) {
         }
     }
 
+    function getHashPath() {
+        if (hash && hash === htmlId && expand === false) {
+            setExpand(true);
+        }
+    }
+
+    getHashPath();
+
     return (
-        <div aria-label={ title } id={ htmlId } className='dropdown__details' data-state={ expand ? 'open' : 'close' }>
+        <div aria-label={ title } id={ htmlId } className='dropdown__details' onLoad={ getHashPath } data-state={ expand ? 'open' : 'close' }>
             <h3 className='dropdown__title' onClick={ toggleExpand }>{title}<FontAwesomeIcon icon={faAngleDown} /></h3>
             <div className='dropdown__content-wrapper'>
                 <p>{time}{ facilitator ? <span> - {facilitator}</span> : null}</p>
-                <div className='dropdown__content'>
-                    { content }
-                </div>
+                <div className='dropdown__content' dangerouslySetInnerHTML={{ __html: content }}></div>
+                { details ?
+                    <div className='dropdown__content-details'>
+                        <h4>More Details</h4>
+                        <div dangerouslySetInnerHTML={{ __html: details }}></div>
+                    </div>
+                : null }
             </div>
         </div>
     );
