@@ -29,7 +29,7 @@ export function Home() {
 
                 <p className='home__verse standard-padding container color-profile-primary standard-margin-top'>"The LORD will work out his plans for my life— for your faithful love, O LORD, endures forever. Don't abandon me, for you made me." <span>- Psalms 138:8 NLT</span></p>
 
-                <p className='home__content standard-padding'>Themed "Destined," this youth retreat is aimed to help you discover your destiny. From a Christ centered approach, we'll discuss topics of: life direction, character building, and practical living. Participate in engaging lectures, sermonettes, and workshops. Also, enjoy physical and hands-on activities such as: hiking, cooking, and wellness pursuits.</p>
+                <p className='home__content standard-padding'>Themed "Destined," this youth retreat is aimed to help you discover your destiny. From a Christ centered approach, we'll explore topics of: divine direction, heavenly character building, and practical living. Participate in engaging lectures, sermonettes, and workshops. Also, enjoy physical and hands-on activities such as: hiking, cooking, and wellness pursuits. We hope that this retreat will supply tools and frameworks to help you walk a closer walk with God here on earth, and for eternity.</p>
             </div>
 
             <Schedule />
