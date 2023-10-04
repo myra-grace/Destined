@@ -34,7 +34,7 @@ export function Home() {
 
             <Schedule />
 
-            {/* Icons w/ text locations w/ pin link */}
+            <h2 id='locations' className='home__locations-title container standard-margin-top'>Locations</h2>
             <div className='icon-with-text__parent container standard-padding'>
                 <IconWithText title="Cottage"
                  link="https://maps.app.goo.gl/y2jXJWA9Q5gL7y9u7" 
