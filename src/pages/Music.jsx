@@ -5,7 +5,7 @@ export function Music() {
         <div className="music__wrapper container standard-padding">
             <h1 className="music__grand-title">Music List</h1>
             <h2 className="music__title standard-margin-top"><span className="type--pretitle">Theme song by Faith First</span>Destined for Greatness</h2>
-            <a class="button button--primary standard-margin-top" href="https://docs.google.com/document/d/1AD6mMXPnfdhX_ZICg06ZxtiLavkTB-bJmySSOgAuFW8/edit?usp=sharing#heading=h.hw7brlet1nt" target="_blank">See theme song chords</a>
+            <a class="button button--primary standard-margin-top" href="https://docs.google.com/document/d/1AD6mMXPnfdhX_ZICg06ZxtiLavkTB-bJmySSOgAuFW8/edit?usp=sharing#heading=h.hw7brlet1nt" target="_blank" rel="noreferrer">See theme song chords</a>
             
             <h3 className="standard-margin-top">Verse</h3>
             <p>

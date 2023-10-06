@@ -21,12 +21,11 @@ export function Schedule() {
             <SessionItem time="9:00am" facilitator="Marsjey Hymn" title="Morning devotional 1" link={true}/>
             <SessionItem time="9:30am to 10:30am" title="Breakfast" slotFill={ 2 }/>
             <SessionItem time="10:30am to 11:30am" facilitator="Myra Salinas" title="Sabbath School" slotFill={ 2 } link={true}/>
-            <SessionItem time="11:00am to 11:30am"/>
-            <SessionItem time="12:30am to 1:30pm" facilitator="Marc Lovem" title="Butterfly effect" slotFill={ 3 } link={true}/>
+            <SessionItem time="11:30am to 12:30am" facilitator="Cherlynn De Asis" title="Bookmark craft activity" slotFill={ 2 } link={true}/>
+            <SessionItem time="12:30am to 1:30pm" facilitator="Marc Lovem" title="Butterfly effect" slotFill={ 2 } link={true}/>
             <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
-            <SessionItem time="2:30pm to 3:00pm" title="Nature walk" link={true}/>
-            <SessionItem time="3:00pm to 4:00pm" facilitator="Mellory May & *" title="Ladies & Gentlemen" slotFill={ 2 } link="ladies-gentlemen"/>
-            <SessionItem time="4:00pm to 5:30pm" facilitator="Myra Salinas" title="Book binding activity" slotFill={ 3 } link={true}/>
+            <SessionItem time="2:30pm to 3:30pm" facilitator="Mellory May & Marc Lovem" title="Ladies & Gentlemen" slotFill={ 2 } link="ladies-gentlemen"/>
+            <SessionItem time="3:30pm to 5:30pm" facilitator="Myra Salinas" title="Book binding activity" slotFill={ 4 } link={true}/>
             <SessionItem time="5:30pm to 6:00pm" facilitator="Beverly Kate" title="Evening devotional 2" link={true}/>
             <SessionItem time="6:00pm to 7:00pm" title="Dinner" slotFill={ 2 }/>
             <SessionItem time="7:00pm to 10:00pm" title="Gym night" slotFill={ 6 } link={true}/>
@@ -58,7 +57,7 @@ export function Schedule() {
         <>
             <SessionItem time="9:00am" facilitator="Cherlynn De Asis" title="Morning devotional 3" link={true}/>
             <SessionItem time="9:30am to 10:30am" facilitator="Mellory May" title="Management - time & money" slotFill={ 2 } link={true}/>
-            <SessionItem time="10:30am to 12:00am" title="Brunch" slotFill={ 3 } link={true}/>
+            <SessionItem time="10:30am to 12:00am" title="Brunch" slotFill={ 3 }/>
             <SessionItem time="12:00am to 1:00am" facilitator="Myra Salinas" title="Resolution" slotFill={ 2 } link={true}/>
             <SessionItem time="1:00pm to 2:00pm" title="Packup & cleaning time!" slotFill={ 2 }/>
             <SessionItem time="2:00pm to 5:00pm" title="Hiking" slotFill={ 6 } link={true}/>

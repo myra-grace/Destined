@@ -30,11 +30,12 @@
                     "session": true
                 },
                 {
-                    "time": "14h30",
-                    "title": "Nature Walk",
-                    "description": "Short nature walk along the trail in the woods behind the chalet.",
-                    "task": "Take everyone for a walk in the woods behind the chalet. Make groups and set a head and a tail.",
-                    "session": true
+                    "time": "12h30 to 13h30",
+                    "title": "Divine service",
+                    "facilitator": "Myra-Grace",
+                    "description": "Divine service. Myra's presiding. Marc Lovem is speaking. You are doing the music.",
+                    "task": "Prepare a jam session for the service (perhaps a medley). Have some music for about 10 minutes. Then there will be scripture reading. Then more music for about 5 minutes. Then the sermon. Then more music at the end, maybe 3 songs.",
+                    "session": false
                 },
                 {
                     "time": "16h00 to 17h30",
@@ -93,44 +94,13 @@
         }
     },
     {
-        "id": "marc-lovem",
-        "name": "Marc Lovem",
-        "role": "Overseeing Elder",
-        "responsibilities": {
-            "friday": [
-                {
-                    "time": "19h00",
-                    "title": "Convoy travel to Labelle",
-                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy. You have been assigned as lead driver. You will be the first car in the convoy. Since you are leaving earlier, please park in a spot where you can easily get out.",
-                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
-                    "session": false
-                }
-            ],
-            "saturday": [
-                {
-                    "time": "12h00 to 13h30",
-                    "title": "Butterfly Effect",
-                    "facilitator": "Marc Lovem",
-                    "description": "What should I offer to society, and what does society offer me?",
-                    "task": "Prepare a sermon for the Saturday service. There will be music, scripture reading, and some other activities. Your sermon doesn't need to be any longer than 20mins.</br></br> Send the verse for scripture reading to Myra (presider).",
-                    "session": true
-                }
-            ],
-            "general": [
-                "Oversee event",
-                "contact special speakers",
-                "gentlemen's superintendent"
-            ]
-        }
-    },
-    {
         "id": "mellory-may",
         "name": "Mellory May",
         "role": "Locations Coordinator",
         "responsibilities": {
             "saturday": [
                 {
-                    "time": "15h30 to 17h00",
+                    "time": "14h30 to 15h30",
                     "title": "Ladies & Gentlemen (Ladies)",
                     "link": "ladies-gentlemen",
                     "facilitator": "Mellory May",
@@ -152,6 +122,46 @@
             "general": [
                 "Manage everything location for the event",
                 "ladies' superintendent"
+            ]
+        }
+    },
+    {
+        "id": "marc-lovem",
+        "name": "Marc Lovem",
+        "role": "Overseeing Elder",
+        "responsibilities": {
+            "friday": [
+                {
+                    "time": "19h00",
+                    "title": "Convoy travel to Labelle",
+                    "task": "As one of the drivers, you are captain of a ship in the convoy. Assign a co-pilot to help you navigate and communicate with the rest of the convoy. You have been assigned as lead driver. You will be the first car in the convoy. Since you are leaving earlier, please park in a spot where you can easily get out.",
+                    "description": "Address: 301 Rue de la Montagne Labelle QC J0T 1H0 Canada. Travelling to Labelle in convoy. Leaving at 7pm. Expected arrival time: 9pm.",
+                    "session": false
+                }
+            ],
+            "saturday": [
+                {
+                    "time": "12h30 to 13h30",
+                    "title": "Butterfly Effect",
+                    "facilitator": "Marc Lovem",
+                    "description": "What should I offer to society, and what does society offer me?",
+                    "task": "Prepare a sermon for the Saturday service. There will be music, scripture reading, and some other activities. Your sermon doesn't need to be any longer than 20mins.</br></br> Send the verse for scripture reading to Myra (presider).",
+                    "session": true
+                },
+                {
+                    "time": "14h30 to 15h30",
+                    "title": "Ladies & Gentlemen (Gentlemen)",
+                    "link": "ladies-gentlemen",
+                    "facilitator": "Marc Lovem",
+                    "description": "How to own manhood: What it means to be a man, and how to valiantly optimize manhood.",
+                    "task": "Prepare a lecture & workshop about 'owning manhood.'",
+                    "session": true
+                }
+            ],
+            "general": [
+                "Oversee event",
+                "contact special speakers",
+                "gentlemen's superintendent"
             ]
         }
     },
@@ -200,34 +210,6 @@
         }
     },
     {
-        "id": "unknown",
-        "name": "Unknown",
-        "role": "Facilitator",
-        "responsibilities": {
-            "saturday": [
-                {
-                    "time": "15h30 to 17h00",
-                    "title": "Ladies & Gentlemen (Gentlemen)",
-                    "link": "ladies-gentlemen",
-                    "facilitator": "Unknown",
-                    "description": "How to own manhood: What it means to be a man, and how to valiantly optimize manhood.",
-                    "task": "Prepare a lecture & workshop about 'owning manhood.'",
-                    "session": true
-                }
-            ],
-            "monday": [
-                {
-                    "time": "09h30 to 10h30",
-                    "title": "Gardening & Diet",
-                    "facilitator": "Unknown",
-                    "description": "Learn the basics of gardening & how to maintain a healthy diet.",
-                    "task": "Prepare a lecture &/ workshop about gardening and diet.",
-                    "session": true
-                }
-            ]
-        }
-    },
-    {
         "id": "beverley-kate",
         "name": "Beverley Kate",
         "role": "Carpool Coordinator & Devotional Facilitator",
@@ -238,7 +220,7 @@
                     "title": "Evening Devotional 2",
                     "facilitator": "Beverley Kate",
                     "description": "Being and joining uplifting company. Propelling each other forward.",
-                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes. </br></br> You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1040/toc'>EGW devotional Sons and Daughters</a>: June 3-5.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes. </br></br> You can find reference in the <a target='_blank' rel='noreferrer' class='link' href='https://m.egwwritings.org/en/book/102.1040/toc'>EGW devotional Sons and Daughters</a>: June 3-5.",
                     "session": true
                 }
             ],
@@ -477,15 +459,15 @@
                     "facilitator": "Pia Marie & Joseph Daniel",
                     "description": "Cooking class & BBQ boodle fight",
                     "task": "Prepare a short cooking class or lecture and facilitate the BBQ",
-                    "session": true
+                    "session": false
                 }
             ],
             "monday": [
                 {
-                    "time": "11h30 to 13h00",
-                    "title": "Boodle fight brunch",
-                    "description": "Filipino style boodle fight brunch",
-                    "task": "Prepare the brunch table in a boodle fight style with simple filipino cuisine.",
+                    "time": "10h30 to 12h00",
+                    "title": "Brunch",
+                    "description": "Long family brunch",
+                    "task": "Cozy family ambiance brunch",
                     "session": true
                 }
             ],
@@ -513,10 +495,10 @@
             ],
             "monday": [
                 {
-                    "time": "11h30 to 13h00",
-                    "title": "Boodle fight brunch",
-                    "description": "Filipino style boodle fight brunch",
-                    "task": "Prepare the brunch table in a boodle fight style with simple filipino cuisine.",
+                    "time": "10h30 to 12h00",
+                    "title": "Brunch",
+                    "description": "Long family brunch",
+                    "task": "Cozy family ambiance brunch",
                     "session": false
                 }
             ],
@@ -532,13 +514,23 @@
         "name": "Cherlynn De Asis",
         "role": "Designer & Devotional facilitator",
         "responsibilities": {
+            "saturday": [
+                {
+                    "time": "11h30 to 12h30",
+                    "title": "Bookmark craft activity",
+                    "facilitator": "Cherlynn De Asis",
+                    "description": "We're going to make bookmarks together!",
+                    "task": "All the tools are prepared. Facilitate the activity.",
+                    "session": true
+                }
+            ],
             "monday": [
                 {
                     "time": "09h00",
                     "title": "Morning Devotional 3",
                     "facilitator": "Cherlynn De Asis",
                     "description": "We are the Salt!: Excellence, diligence, reliability, and effectiveness.",
-                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1040#1040'>EGW devotional Sons and Daughters, May 27</a>.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a target='_blank' rel='noreferrer' class='link' href='https://m.egwwritings.org/en/book/102.1040#1040'>EGW devotional Sons and Daughters, May 27</a>.",
                     "session": true
                 }
             ],
@@ -568,7 +560,7 @@
                     "title": "Morning Devotional 2",
                     "facilitator": "Angelie Pasamonte",
                     "description": "A Stellar Character - Morning Devotional 2. There's a trove of blessings in developing an outstanding and robust character.",
-                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a target='_blank' class='link' href='https://m.egwwritings.org/en/book/102.1049#1049'>EGW devotional Sons and Daughters, May 28</a>.",
+                    "task": "Prepare a devotional on this topic. It doesn't need to be any longer than 15 minutes.</br></br>You can find reference in the <a target='_blank' rel='noreferrer' class='link' href='https://m.egwwritings.org/en/book/102.1049#1049'>EGW devotional Sons and Daughters, May 28</a>.",
                     "session": true
                 }
             ],
@@ -590,7 +582,7 @@
         "responsibilities": {
             "saturday": [
                 {
-                    "time": "11h30 to 13h00",
+                    "time": "12h30 to 13h30",
                     "title": "Divine service",
                     "facilitator": "Myra-Grace",
                     "description": "Divine service. Myra's presiding. Marc Lovem is speaking. You are doing the music.",
