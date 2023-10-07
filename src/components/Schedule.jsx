@@ -18,7 +18,7 @@ export function Schedule() {
         <>
             <SessionItem time="9:00am" facilitator="Marsjey Hymn" title="Morning devotional 1" link={true}/>
             <SessionItem time="9:30am to 10:30am" title="Breakfast" slotFill={ 2 }/>
-            <SessionItem time="10:30am to 11:30am" facilitator="Myra Salinas" title="Sabbath School" slotFill={ 2 } link={true}/>
+            <SessionItem time="10:30am to 11:30am" facilitator="Marc Vicuna" title="Sabbath School" slotFill={ 2 } link={true}/>
             <SessionItem time="11:30am to 12:30am" facilitator="Cherlynn De Asis" title="Bookmark craft activity" slotFill={ 2 } link={true}/>
             <SessionItem time="12:30am to 1:30pm" facilitator="Marc Lovem" title="Butterfly effect" slotFill={ 2 } link={true}/>
             <SessionItem time="1:30pm to 2:30pm" title="Lunch" slotFill={ 2 }/>
