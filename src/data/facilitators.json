@@ -22,14 +22,6 @@
             ],
             "saturday": [
                 {
-                    "time": "10h30 to 11h30",
-                    "title": "Sabbath School",
-                    "facilitator": "Myra Salinas",
-                    "description": "Sabbath school lesson",
-                    "task": "Sabbath school lesson for the week or 'Where am I?' sermonette.",
-                    "session": true
-                },
-                {
                     "time": "12h30 to 13h30",
                     "title": "Divine service",
                     "facilitator": "Myra-Grace",
@@ -170,6 +162,16 @@
                     "facilitator": "Marc Vicuna",
                     "description": "Vesper Kick-off: Destined 2023. God has a plan for your life, even before you were born.",
                     "task": "Prepare a sermonette about how God has a plan for each one of us. And ultimately, we're included in the plan of salvation; in that our destination is by his side in heaven.",
+                    "session": true
+                }
+            ],
+            "saturday": [
+                {
+                    "time": "10h30 to 11h30",
+                    "title": "Sabbath School",
+                    "facilitator": "Marc Vicuna",
+                    "description": "Sabbath school lesson",
+                    "task": "Sabbath school lesson for the week or 'Where am I?' sermonette.",
                     "session": true
                 }
             ],
