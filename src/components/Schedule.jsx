@@ -2,8 +2,6 @@ import '../styles/components/schedule.scss';
 import { Accordion } from './Accordion';
 import { SessionItem } from './SessionItem';
 
-// TODO: Make sessions into component
-
 export function Schedule() {
     const fridayContent = 
         <>
@@ -36,7 +34,7 @@ export function Schedule() {
 
     const sundayContent = 
         <>
-            <SessionItem time="9:00am" facilitator="Cybill Lorraine" title="Morning devotional 2" link={true}/>
+            <SessionItem time="9:00am" facilitator="Angelie Janelle" title="Morning devotional 2" link={true}/>
             <SessionItem time="9:30am to 10:30am" title="Breakfast" slotFill={ 2 }/>
             <SessionItem time="10:00am to 11:30am" facilitator="Myra Salinas" title="Understanding myself & others" slotFill={ 3 } link={true}/>
             <SessionItem time="11:30am to 12:00pm"/>
